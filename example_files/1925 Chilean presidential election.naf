@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NAF xml:lang="en" version="v3.naf">
+  <nafHeader>
+    <fileDesc creationtime="2019-06-18T13:00:04UTC" title="1925 Chilean presidential election"/>
+    <public uri="https://en.wikipedia.org/wiki/1925_Chilean_presidential_election"/>
+    <linguisticProcessors layer="text">
+      <lp name="spaCy-model_en_core_web_sm" beginTimestamp="2019-06-20T10:27:24UTC" endTimestamp="2019-06-20T10:27:24UTC" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="spaCy-model_en_core_web_sm" beginTimestamp="2019-06-20T10:27:24UTC" endTimestamp="2019-06-20T10:27:24UTC" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="raw">
+      <lp name="spaCy-model_en_core_web_sm" beginTimestamp="2019-06-20T10:27:24UTC" endTimestamp="2019-06-20T10:27:24UTC" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <raw>Presidential elections were held in Chile on 22 October 1925. They were the first direct elections in the country's history and the first to be held under the new 1925 constitution. The result was a victory for Emiliano Figueroa, who received 71% of the vote.</raw>
+  <text>
+    <wf sent="1" id="w0" length="12" offset="0">Presidential</wf>
+    <wf sent="1" id="w1" length="9" offset="13">elections</wf>
+    <wf sent="1" id="w2" length="4" offset="23">were</wf>
+    <wf sent="1" id="w3" length="4" offset="28">held</wf>
+    <wf sent="1" id="w4" length="2" offset="33">in</wf>
+    <wf sent="1" id="w5" length="5" offset="36">Chile</wf>
+    <wf sent="1" id="w6" length="2" offset="42">on</wf>
+    <wf sent="1" id="w7" length="2" offset="45">22</wf>
+    <wf sent="1" id="w8" length="7" offset="48">October</wf>
+    <wf sent="1" id="w9" length="4" offset="56">1925</wf>
+    <wf sent="1" id="w10" length="1" offset="60">.</wf>
+    <wf sent="2" id="w11" length="4" offset="62">They</wf>
+    <wf sent="2" id="w12" length="4" offset="67">were</wf>
+    <wf sent="2" id="w13" length="3" offset="72">the</wf>
+    <wf sent="2" id="w14" length="5" offset="76">first</wf>
+    <wf sent="2" id="w15" length="6" offset="82">direct</wf>
+    <wf sent="2" id="w16" length="9" offset="89">elections</wf>
+    <wf sent="2" id="w17" length="2" offset="99">in</wf>
+    <wf sent="2" id="w18" length="3" offset="102">the</wf>
+    <wf sent="2" id="w19" length="7" offset="106">country</wf>
+    <wf sent="2" id="w20" length="2" offset="113">'s</wf>
+    <wf sent="2" id="w21" length="7" offset="116">history</wf>
+    <wf sent="2" id="w22" length="3" offset="124">and</wf>
+    <wf sent="2" id="w23" length="3" offset="128">the</wf>
+    <wf sent="2" id="w24" length="5" offset="132">first</wf>
+    <wf sent="2" id="w25" length="2" offset="138">to</wf>
+    <wf sent="2" id="w26" length="2" offset="141">be</wf>
+    <wf sent="2" id="w27" length="4" offset="144">held</wf>
+    <wf sent="2" id="w28" length="5" offset="149">under</wf>
+    <wf sent="2" id="w29" length="3" offset="155">the</wf>
+    <wf sent="2" id="w30" length="3" offset="159">new</wf>
+    <wf sent="2" id="w31" length="4" offset="163">1925</wf>
+    <wf sent="2" id="w32" length="12" offset="168">constitution</wf>
+    <wf sent="2" id="w33" length="1" offset="180">.</wf>
+    <wf sent="3" id="w34" length="3" offset="182">The</wf>
+    <wf sent="3" id="w35" length="6" offset="186">result</wf>
+    <wf sent="3" id="w36" length="3" offset="193">was</wf>
+    <wf sent="3" id="w37" length="1" offset="197">a</wf>
+    <wf sent="3" id="w38" length="7" offset="199">victory</wf>
+    <wf sent="3" id="w39" length="3" offset="207">for</wf>
+    <wf sent="3" id="w40" length="8" offset="211">Emiliano</wf>
+    <wf sent="3" id="w41" length="8" offset="220">Figueroa</wf>
+    <wf sent="3" id="w42" length="1" offset="228">,</wf>
+    <wf sent="3" id="w43" length="3" offset="230">who</wf>
+    <wf sent="3" id="w44" length="8" offset="234">received</wf>
+    <wf sent="3" id="w45" length="2" offset="243">71</wf>
+    <wf sent="3" id="w46" length="1" offset="245">%</wf>
+    <wf sent="3" id="w47" length="2" offset="247">of</wf>
+    <wf sent="3" id="w48" length="3" offset="250">the</wf>
+    <wf sent="3" id="w49" length="4" offset="254">vote</wf>
+    <wf sent="3" id="w50" length="1" offset="258">.</wf>
+  </text>
+  <terms>
+    <term id="t0" lemma="presidential" pos="ADJ" morphofeat="JJ">
+      <span>
+        <target id="w0"/>
+      </span>
+    </term>
+    <term id="t1" lemma="election" pos="NOUN" morphofeat="NNS">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term id="t2" lemma="be" pos="VERB" morphofeat="VBD">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term id="t3" lemma="hold" pos="VERB" morphofeat="VBN">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term id="t4" lemma="in" pos="ADP" morphofeat="IN">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term id="t5" lemma="Chile" pos="PROPN" morphofeat="NNP">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term id="t6" lemma="on" pos="ADP" morphofeat="IN">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term id="t7" lemma="22" pos="NUM" morphofeat="CD">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term id="t8" lemma="October" pos="PROPN" morphofeat="NNP">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term id="t9" lemma="1925" pos="NUM" morphofeat="CD">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term id="t10" lemma="." pos="PUNCT" morphofeat=".">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term id="t11" lemma="-PRON-" pos="PRON" morphofeat="PRP">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term id="t12" lemma="be" pos="VERB" morphofeat="VBD">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term id="t13" lemma="the" pos="DET" morphofeat="DT">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term id="t14" lemma="first" pos="ADJ" morphofeat="JJ">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term id="t15" lemma="direct" pos="ADJ" morphofeat="JJ">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term id="t16" lemma="election" pos="NOUN" morphofeat="NNS">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term id="t17" lemma="in" pos="ADP" morphofeat="IN">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term id="t18" lemma="the" pos="DET" morphofeat="DT">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term id="t19" lemma="country" pos="NOUN" morphofeat="NN">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term id="t20" lemma="'s" pos="PART" morphofeat="POS">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term id="t21" lemma="history" pos="NOUN" morphofeat="NN">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term id="t22" lemma="and" pos="CCONJ" morphofeat="CC">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term id="t23" lemma="the" pos="DET" morphofeat="DT">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term id="t24" lemma="first" pos="ADJ" morphofeat="JJ">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term id="t25" lemma="to" pos="PART" morphofeat="TO">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term id="t26" lemma="be" pos="VERB" morphofeat="VB">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <term id="t27" lemma="hold" pos="VERB" morphofeat="VBN">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <term id="t28" lemma="under" pos="ADP" morphofeat="IN">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <term id="t29" lemma="the" pos="DET" morphofeat="DT">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <term id="t30" lemma="new" pos="ADJ" morphofeat="JJ">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <term id="t31" lemma="1925" pos="NUM" morphofeat="CD">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <term id="t32" lemma="constitution" pos="NOUN" morphofeat="NN">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <term id="t33" lemma="." pos="PUNCT" morphofeat=".">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <term id="t34" lemma="the" pos="DET" morphofeat="DT">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <term id="t35" lemma="result" pos="NOUN" morphofeat="NN">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <term id="t36" lemma="be" pos="VERB" morphofeat="VBD">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <term id="t37" lemma="a" pos="DET" morphofeat="DT">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <term id="t38" lemma="victory" pos="NOUN" morphofeat="NN">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <term id="t39" lemma="for" pos="ADP" morphofeat="IN">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <term id="t40" lemma="Emiliano" pos="PROPN" morphofeat="NNP">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <term id="t41" lemma="Figueroa" pos="PROPN" morphofeat="NNP">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <term id="t42" lemma="," pos="PUNCT" morphofeat=",">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <term id="t43" lemma="who" pos="PRON" morphofeat="WP">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <term id="t44" lemma="receive" pos="VERB" morphofeat="VBD">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <term id="t45" lemma="71" pos="NUM" morphofeat="CD">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <term id="t46" lemma="%" pos="NOUN" morphofeat="NN">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <term id="t47" lemma="of" pos="ADP" morphofeat="IN">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <term id="t48" lemma="the" pos="DET" morphofeat="DT">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <term id="t49" lemma="vote" pos="NOUN" morphofeat="NN">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <term id="t50" lemma="." pos="PUNCT" morphofeat=".">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+  </terms>
+</NAF>
