@@ -23,6 +23,28 @@ class NAF_collection:
 
         return '\n'.join(info)
 
+    def add_naf_objects(self, naf_objects, verbose=0):
+        """
+        add instances of class NAF_documents
+        (you might use this if you merge different instances of NAF_collection objects)
+
+        :param naf_objects:
+        :return:
+        """
+        added = 0
+        total = len(naf_objects)
+        for naf_object in naf_objects:
+            key = (naf_object.language,
+                   naf_object.title)
+            if key not in self.lang_title2naf_obj:
+                self.lang_title2naf_obj[key] = naf_object
+                self.documents.append(naf_object)
+                added += 1
+
+        assert len(self.documents) == len(self.lang_title2naf_obj)
+
+        if verbose >= 2:
+            print(f'added {added} naf object out of the {total} provided')
 
     def add_naf_documents(self, paths, verbose=0):
         """
