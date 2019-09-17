@@ -209,7 +209,7 @@ class NAF_collection:
 
         df = pandas.DataFrame(list_of_lists, columns=headers)
 
-        return df
+        return df.sort_values('Freq', ascending=False)
 
 
     def print_occurrences(self, attribute, lang, item):
