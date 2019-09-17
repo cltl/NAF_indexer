@@ -179,7 +179,7 @@ class NAF_document:
         return wid2tid
 
 
-    def set_terms_attribute(self, pos_mapping):
+    def set_terms_attribute(self, pos_mapping={}):
         lemma_pos2occurrences = defaultdict(list)
 
         for sent_id, sent_obj in self.sent_id2sent_obj.items():
