@@ -46,7 +46,7 @@ class NAF_collection:
         if verbose >= 2:
             print(f'added {added} naf object out of the {total} provided')
 
-    def add_naf_document(self, path, verbose=0):
+    def add_naf_document(self, path, load_distributions=False, pos_mapping={}, verbose=0):
         """
         create NAF_document class instance and update
         -self.documents
@@ -93,6 +93,10 @@ class NAF_collection:
             index = len(sent_obj.tokens)
 
             naf_obj.tid2sentid_index[t_id] = (sent_id, index)
+
+        if load_distributions:
+            naf_obj.set_terms_attribute(pos_mapping)
+            naf_obj.set_predicate_attribute(doc)
 
         self.documents.append(naf_obj)
 
@@ -179,16 +183,16 @@ class NAF_document:
     """
 
     """
-    def __init__(self, title, language, doc):
+    def __init__(self,
+                 title,
+                 language,
+                 doc):
         self.title = title
         self.language = language
-        self.doc = doc
         self.sent_id2sent_obj = {}
 
         self.wid2tid = self.load_wid2tid(doc)
         self.tid2sentid_index = {}
-
-        self.terms = {} # use load_terms_info
 
     def load_wid2tid(self, doc):
         wid2tid = {}
@@ -234,11 +238,13 @@ class NAF_document:
 
 
     def set_predicate_attribute(self,
+                                doc,
                                 verbose=0):
         """
         """
         all_occurrences = defaultdict(list)
-        for el in self.doc.xpath('srl/predicate'):
+
+        for el in doc.xpath('srl/predicate'):
 
             predicate = el.get('uri')
 
