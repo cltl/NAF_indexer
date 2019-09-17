@@ -1,0 +1,1304 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3.naf">
+  <nafHeader>
+    <fileDesc creationtime="2019-07-20T00:00:00UTC" title="Wedding of Prince Felipe and Letizia Ortiz"/>
+    <public uri="https://en.wikipedia.org/wiki/Wedding_of_Prince_Felipe_and_Letizia_Ortiz"/>
+    <linguisticProcessors layer="terms">
+      <lp beginTimestamp="2019-09-16T10:04:50UTC" endTimestamp="2019-09-16T10:04:50UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="raw">
+      <lp beginTimestamp="2019-09-16T10:04:50UTC" endTimestamp="2019-09-16T10:04:50UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="text">
+      <lp beginTimestamp="2019-09-16T10:04:50UTC" endTimestamp="2019-09-16T10:04:50UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp beginTimestamp="2019-07-20T00:00:00UTC" endTimestamp="2019-07-20T00:00:00UTC" name="Wikipedia" version="2019-07-20"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-" timestamp="2019-09-16T10:07:47CEST" beginTimestamp="2019-09-16T08:04:55UTC" endTimestamp="2019-09-16T08:07:47UTC" hostname="kyoto"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <raw>++Wedding of Prince Felipe and Letizia Ortiz++.
+The wedding of Prince Felipe and Letizia Ortiz was held on 22 May 2004 in Almudena Cathedral at Royal Palace of Madrid in Spain. The groom, Prince Felipe, was at that time the heir to the Spanish throne. The bride, Letizia Ortiz, was a journalist. The wedding was presided over by the Archbishop of Madrid, Antonio María Rouco Varela.
+The wedding was attended by more than 1200 guests including 36 royal houses and a score of heads of state, as well as the main representatives of the political, economic and social class of Spain.
+It was considered a state wedding, the first in Spain for more than 50 years, and it was also the first wedding to be held in the cathedral of Madrid, which had been consecrated in 1993. It was also the first royal wedding held in Madrid for almost a century.</raw>
+  <text>
+    <wf sent="1" id="w1" length="1" offset="0">+</wf>
+    <wf sent="1" id="w2" length="1" offset="1">+</wf>
+    <wf sent="1" id="w3" length="7" offset="2">Wedding</wf>
+    <wf sent="1" id="w4" length="2" offset="10">of</wf>
+    <wf sent="1" id="w5" length="6" offset="13">Prince</wf>
+    <wf sent="1" id="w6" length="6" offset="20">Felipe</wf>
+    <wf sent="1" id="w7" length="3" offset="27">and</wf>
+    <wf sent="1" id="w8" length="7" offset="31">Letizia</wf>
+    <wf sent="1" id="w9" length="7" offset="39">Ortiz++</wf>
+    <wf sent="1" id="w10" length="1" offset="46">.</wf>
+    <wf sent="1" id="w11" length="1" offset="47">
+</wf>
+    <wf sent="2" id="w12" length="3" offset="48">The</wf>
+    <wf sent="2" id="w13" length="7" offset="52">wedding</wf>
+    <wf sent="2" id="w14" length="2" offset="60">of</wf>
+    <wf sent="2" id="w15" length="6" offset="63">Prince</wf>
+    <wf sent="2" id="w16" length="6" offset="70">Felipe</wf>
+    <wf sent="2" id="w17" length="3" offset="77">and</wf>
+    <wf sent="2" id="w18" length="7" offset="81">Letizia</wf>
+    <wf sent="2" id="w19" length="5" offset="89">Ortiz</wf>
+    <wf sent="2" id="w20" length="3" offset="95">was</wf>
+    <wf sent="2" id="w21" length="4" offset="99">held</wf>
+    <wf sent="2" id="w22" length="2" offset="104">on</wf>
+    <wf sent="2" id="w23" length="2" offset="107">22</wf>
+    <wf sent="2" id="w24" length="3" offset="110">May</wf>
+    <wf sent="2" id="w25" length="4" offset="114">2004</wf>
+    <wf sent="2" id="w26" length="2" offset="119">in</wf>
+    <wf sent="2" id="w27" length="8" offset="122">Almudena</wf>
+    <wf sent="2" id="w28" length="9" offset="131">Cathedral</wf>
+    <wf sent="2" id="w29" length="2" offset="141">at</wf>
+    <wf sent="2" id="w30" length="5" offset="144">Royal</wf>
+    <wf sent="2" id="w31" length="6" offset="150">Palace</wf>
+    <wf sent="2" id="w32" length="2" offset="157">of</wf>
+    <wf sent="2" id="w33" length="6" offset="160">Madrid</wf>
+    <wf sent="2" id="w34" length="2" offset="167">in</wf>
+    <wf sent="2" id="w35" length="5" offset="170">Spain</wf>
+    <wf sent="2" id="w36" length="1" offset="175">.</wf>
+    <wf sent="3" id="w37" length="3" offset="177">The</wf>
+    <wf sent="3" id="w38" length="5" offset="181">groom</wf>
+    <wf sent="3" id="w39" length="1" offset="186">,</wf>
+    <wf sent="3" id="w40" length="6" offset="188">Prince</wf>
+    <wf sent="3" id="w41" length="6" offset="195">Felipe</wf>
+    <wf sent="3" id="w42" length="1" offset="201">,</wf>
+    <wf sent="3" id="w43" length="3" offset="203">was</wf>
+    <wf sent="3" id="w44" length="2" offset="207">at</wf>
+    <wf sent="3" id="w45" length="4" offset="210">that</wf>
+    <wf sent="3" id="w46" length="4" offset="215">time</wf>
+    <wf sent="3" id="w47" length="3" offset="220">the</wf>
+    <wf sent="3" id="w48" length="4" offset="224">heir</wf>
+    <wf sent="3" id="w49" length="2" offset="229">to</wf>
+    <wf sent="3" id="w50" length="3" offset="232">the</wf>
+    <wf sent="3" id="w51" length="7" offset="236">Spanish</wf>
+    <wf sent="3" id="w52" length="6" offset="244">throne</wf>
+    <wf sent="3" id="w53" length="1" offset="250">.</wf>
+    <wf sent="4" id="w54" length="3" offset="252">The</wf>
+    <wf sent="4" id="w55" length="5" offset="256">bride</wf>
+    <wf sent="4" id="w56" length="1" offset="261">,</wf>
+    <wf sent="4" id="w57" length="7" offset="263">Letizia</wf>
+    <wf sent="4" id="w58" length="5" offset="271">Ortiz</wf>
+    <wf sent="4" id="w59" length="1" offset="276">,</wf>
+    <wf sent="4" id="w60" length="3" offset="278">was</wf>
+    <wf sent="4" id="w61" length="1" offset="282">a</wf>
+    <wf sent="4" id="w62" length="10" offset="284">journalist</wf>
+    <wf sent="4" id="w63" length="1" offset="294">.</wf>
+    <wf sent="5" id="w64" length="3" offset="296">The</wf>
+    <wf sent="5" id="w65" length="7" offset="300">wedding</wf>
+    <wf sent="5" id="w66" length="3" offset="308">was</wf>
+    <wf sent="5" id="w67" length="8" offset="312">presided</wf>
+    <wf sent="5" id="w68" length="4" offset="321">over</wf>
+    <wf sent="5" id="w69" length="2" offset="326">by</wf>
+    <wf sent="5" id="w70" length="3" offset="329">the</wf>
+    <wf sent="5" id="w71" length="10" offset="333">Archbishop</wf>
+    <wf sent="5" id="w72" length="2" offset="344">of</wf>
+    <wf sent="5" id="w73" length="6" offset="347">Madrid</wf>
+    <wf sent="5" id="w74" length="1" offset="353">,</wf>
+    <wf sent="5" id="w75" length="7" offset="355">Antonio</wf>
+    <wf sent="5" id="w76" length="5" offset="363">María</wf>
+    <wf sent="5" id="w77" length="5" offset="369">Rouco</wf>
+    <wf sent="5" id="w78" length="6" offset="375">Varela</wf>
+    <wf sent="5" id="w79" length="1" offset="381">.</wf>
+    <wf sent="5" id="w80" length="1" offset="382">
+</wf>
+    <wf sent="6" id="w81" length="3" offset="383">The</wf>
+    <wf sent="6" id="w82" length="7" offset="387">wedding</wf>
+    <wf sent="6" id="w83" length="3" offset="395">was</wf>
+    <wf sent="6" id="w84" length="8" offset="399">attended</wf>
+    <wf sent="6" id="w85" length="2" offset="408">by</wf>
+    <wf sent="6" id="w86" length="4" offset="411">more</wf>
+    <wf sent="6" id="w87" length="4" offset="416">than</wf>
+    <wf sent="6" id="w88" length="4" offset="421">1200</wf>
+    <wf sent="6" id="w89" length="6" offset="426">guests</wf>
+    <wf sent="6" id="w90" length="9" offset="433">including</wf>
+    <wf sent="6" id="w91" length="2" offset="443">36</wf>
+    <wf sent="6" id="w92" length="5" offset="446">royal</wf>
+    <wf sent="6" id="w93" length="6" offset="452">houses</wf>
+    <wf sent="6" id="w94" length="3" offset="459">and</wf>
+    <wf sent="6" id="w95" length="1" offset="463">a</wf>
+    <wf sent="6" id="w96" length="5" offset="465">score</wf>
+    <wf sent="6" id="w97" length="2" offset="471">of</wf>
+    <wf sent="6" id="w98" length="5" offset="474">heads</wf>
+    <wf sent="6" id="w99" length="2" offset="480">of</wf>
+    <wf sent="6" id="w100" length="5" offset="483">state</wf>
+    <wf sent="6" id="w101" length="1" offset="488">,</wf>
+    <wf sent="6" id="w102" length="2" offset="490">as</wf>
+    <wf sent="6" id="w103" length="4" offset="493">well</wf>
+    <wf sent="6" id="w104" length="2" offset="498">as</wf>
+    <wf sent="6" id="w105" length="3" offset="501">the</wf>
+    <wf sent="6" id="w106" length="4" offset="505">main</wf>
+    <wf sent="6" id="w107" length="15" offset="510">representatives</wf>
+    <wf sent="6" id="w108" length="2" offset="526">of</wf>
+    <wf sent="6" id="w109" length="3" offset="529">the</wf>
+    <wf sent="6" id="w110" length="9" offset="533">political</wf>
+    <wf sent="6" id="w111" length="1" offset="542">,</wf>
+    <wf sent="6" id="w112" length="8" offset="544">economic</wf>
+    <wf sent="6" id="w113" length="3" offset="553">and</wf>
+    <wf sent="6" id="w114" length="6" offset="557">social</wf>
+    <wf sent="6" id="w115" length="5" offset="564">class</wf>
+    <wf sent="6" id="w116" length="2" offset="570">of</wf>
+    <wf sent="6" id="w117" length="5" offset="573">Spain</wf>
+    <wf sent="6" id="w118" length="1" offset="578">.</wf>
+    <wf sent="6" id="w119" length="1" offset="579">
+</wf>
+    <wf sent="7" id="w120" length="2" offset="580">It</wf>
+    <wf sent="7" id="w121" length="3" offset="583">was</wf>
+    <wf sent="7" id="w122" length="10" offset="587">considered</wf>
+    <wf sent="7" id="w123" length="1" offset="598">a</wf>
+    <wf sent="7" id="w124" length="5" offset="600">state</wf>
+    <wf sent="7" id="w125" length="7" offset="606">wedding</wf>
+    <wf sent="7" id="w126" length="1" offset="613">,</wf>
+    <wf sent="7" id="w127" length="3" offset="615">the</wf>
+    <wf sent="7" id="w128" length="5" offset="619">first</wf>
+    <wf sent="7" id="w129" length="2" offset="625">in</wf>
+    <wf sent="7" id="w130" length="5" offset="628">Spain</wf>
+    <wf sent="7" id="w131" length="3" offset="634">for</wf>
+    <wf sent="7" id="w132" length="4" offset="638">more</wf>
+    <wf sent="7" id="w133" length="4" offset="643">than</wf>
+    <wf sent="7" id="w134" length="2" offset="648">50</wf>
+    <wf sent="7" id="w135" length="5" offset="651">years</wf>
+    <wf sent="7" id="w136" length="1" offset="656">,</wf>
+    <wf sent="7" id="w137" length="3" offset="658">and</wf>
+    <wf sent="7" id="w138" length="2" offset="662">it</wf>
+    <wf sent="7" id="w139" length="3" offset="665">was</wf>
+    <wf sent="7" id="w140" length="4" offset="669">also</wf>
+    <wf sent="7" id="w141" length="3" offset="674">the</wf>
+    <wf sent="7" id="w142" length="5" offset="678">first</wf>
+    <wf sent="7" id="w143" length="7" offset="684">wedding</wf>
+    <wf sent="7" id="w144" length="2" offset="692">to</wf>
+    <wf sent="7" id="w145" length="2" offset="695">be</wf>
+    <wf sent="7" id="w146" length="4" offset="698">held</wf>
+    <wf sent="7" id="w147" length="2" offset="703">in</wf>
+    <wf sent="7" id="w148" length="3" offset="706">the</wf>
+    <wf sent="7" id="w149" length="9" offset="710">cathedral</wf>
+    <wf sent="7" id="w150" length="2" offset="720">of</wf>
+    <wf sent="7" id="w151" length="6" offset="723">Madrid</wf>
+    <wf sent="7" id="w152" length="1" offset="729">,</wf>
+    <wf sent="7" id="w153" length="5" offset="731">which</wf>
+    <wf sent="7" id="w154" length="3" offset="737">had</wf>
+    <wf sent="7" id="w155" length="4" offset="741">been</wf>
+    <wf sent="7" id="w156" length="11" offset="746">consecrated</wf>
+    <wf sent="7" id="w157" length="2" offset="758">in</wf>
+    <wf sent="7" id="w158" length="4" offset="761">1993</wf>
+    <wf sent="7" id="w159" length="1" offset="765">.</wf>
+    <wf sent="8" id="w160" length="2" offset="767">It</wf>
+    <wf sent="8" id="w161" length="3" offset="770">was</wf>
+    <wf sent="8" id="w162" length="4" offset="774">also</wf>
+    <wf sent="8" id="w163" length="3" offset="779">the</wf>
+    <wf sent="8" id="w164" length="5" offset="783">first</wf>
+    <wf sent="8" id="w165" length="5" offset="789">royal</wf>
+    <wf sent="8" id="w166" length="7" offset="795">wedding</wf>
+    <wf sent="8" id="w167" length="4" offset="803">held</wf>
+    <wf sent="8" id="w168" length="2" offset="808">in</wf>
+    <wf sent="8" id="w169" length="6" offset="811">Madrid</wf>
+    <wf sent="8" id="w170" length="3" offset="818">for</wf>
+    <wf sent="8" id="w171" length="6" offset="822">almost</wf>
+    <wf sent="8" id="w172" length="1" offset="829">a</wf>
+    <wf sent="8" id="w173" length="7" offset="831">century</wf>
+    <wf sent="8" id="w174" length="1" offset="838">.</wf>
+  </text>
+  <terms>
+    <term id="t1" lemma="+" pos="O" type="open" morphofeat="XX">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term id="t2" lemma="+" pos="O" type="open" morphofeat="XX">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term id="t3" lemma="wedding" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term id="t4" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term id="t5" lemma="Prince" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term id="t6" lemma="Felipe" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term id="t7" lemma="and" pos="C" type="close" morphofeat="CC">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term id="t8" lemma="Letizia" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term id="t9" lemma="Ortiz++" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term id="t10" lemma="." pos="O" type="close" morphofeat=".">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term id="t11" lemma="&#10;" pos="O" type="open" morphofeat="_SP">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term id="t12" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term id="t13" lemma="wedding" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term id="t14" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term id="t15" lemma="Prince" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term id="t16" lemma="Felipe" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term id="t17" lemma="and" pos="C" type="close" morphofeat="CC">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term id="t18" lemma="Letizia" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term id="t19" lemma="Ortiz" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term id="t20" lemma="be" pos="V" type="open" morphofeat="VBD">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term id="t21" lemma="hold" pos="V" type="open" morphofeat="VBN">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term id="t22" lemma="on" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term id="t23" lemma="22" pos="O" type="close" morphofeat="CD">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term id="t24" lemma="May" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term id="t25" lemma="2004" pos="O" type="close" morphofeat="CD">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term id="t26" lemma="in" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <term id="t27" lemma="Almudena" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <term id="t28" lemma="Cathedral" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <term id="t29" lemma="at" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <term id="t30" lemma="Royal" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <term id="t31" lemma="Palace" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <term id="t32" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <term id="t33" lemma="Madrid" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <term id="t34" lemma="in" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <term id="t35" lemma="Spain" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <term id="t36" lemma="." pos="O" type="close" morphofeat=".">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <term id="t37" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <term id="t38" lemma="groom" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <term id="t39" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <term id="t40" lemma="Prince" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <term id="t41" lemma="Felipe" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <term id="t42" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <term id="t43" lemma="be" pos="V" type="open" morphofeat="VBD">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <term id="t44" lemma="at" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <term id="t45" lemma="that" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <term id="t46" lemma="time" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <term id="t47" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <term id="t48" lemma="heir" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <term id="t49" lemma="to" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <term id="t50" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <term id="t51" lemma="spanish" pos="G" type="open" morphofeat="JJ">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <term id="t52" lemma="throne" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <term id="t53" lemma="." pos="O" type="close" morphofeat=".">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <term id="t54" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <term id="t55" lemma="bride" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <term id="t56" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <term id="t57" lemma="Letizia" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <term id="t58" lemma="Ortiz" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <term id="t59" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <term id="t60" lemma="be" pos="V" type="open" morphofeat="VBD">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <term id="t61" lemma="a" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <term id="t62" lemma="journalist" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <term id="t63" lemma="." pos="O" type="close" morphofeat=".">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <term id="t64" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <term id="t65" lemma="wedding" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <term id="t66" lemma="be" pos="V" type="open" morphofeat="VBD">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <term id="t67" lemma="preside" pos="V" type="open" morphofeat="VBN">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <term id="t68" lemma="over" pos="O" type="close" morphofeat="RP">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <term id="t69" lemma="by" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <term id="t70" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <term id="t71" lemma="Archbishop" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <term id="t72" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <term id="t73" lemma="Madrid" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <term id="t74" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <term id="t75" lemma="Antonio" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <term id="t76" lemma="María" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <term id="t77" lemma="Rouco" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <term id="t78" lemma="Varela" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <term id="t79" lemma="." pos="O" type="close" morphofeat=".">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <term id="t80" lemma="&#10;" pos="O" type="open" morphofeat="_SP">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <term id="t81" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <term id="t82" lemma="wedding" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <term id="t83" lemma="be" pos="V" type="open" morphofeat="VBD">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <term id="t84" lemma="attend" pos="V" type="open" morphofeat="VBN">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <term id="t85" lemma="by" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <term id="t86" lemma="more" pos="G" type="open" morphofeat="JJR">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <term id="t87" lemma="than" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <term id="t88" lemma="1200" pos="O" type="close" morphofeat="CD">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <term id="t89" lemma="guest" pos="N" type="open" morphofeat="NNS">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <term id="t90" lemma="include" pos="V" type="open" morphofeat="VBG">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <term id="t91" lemma="36" pos="O" type="close" morphofeat="CD">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <term id="t92" lemma="royal" pos="G" type="open" morphofeat="JJ">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <term id="t93" lemma="house" pos="N" type="open" morphofeat="NNS">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <term id="t94" lemma="and" pos="C" type="close" morphofeat="CC">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <term id="t95" lemma="a" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <term id="t96" lemma="score" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <term id="t97" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <term id="t98" lemma="head" pos="N" type="open" morphofeat="NNS">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <term id="t99" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <term id="t100" lemma="state" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <term id="t101" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <term id="t102" lemma="as" pos="A" type="open" morphofeat="RB">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <term id="t103" lemma="well" pos="A" type="open" morphofeat="RB">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <term id="t104" lemma="as" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <term id="t105" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <term id="t106" lemma="main" pos="G" type="open" morphofeat="JJ">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <term id="t107" lemma="representative" pos="N" type="open" morphofeat="NNS">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <term id="t108" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <term id="t109" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <term id="t110" lemma="political" pos="G" type="open" morphofeat="JJ">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <term id="t111" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <term id="t112" lemma="economic" pos="G" type="open" morphofeat="JJ">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <term id="t113" lemma="and" pos="C" type="close" morphofeat="CC">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <term id="t114" lemma="social" pos="G" type="open" morphofeat="JJ">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <term id="t115" lemma="class" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <term id="t116" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <term id="t117" lemma="Spain" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <term id="t118" lemma="." pos="O" type="close" morphofeat=".">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <term id="t119" lemma="&#10;" pos="O" type="open" morphofeat="_SP">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <term id="t120" lemma="-PRON-" pos="O" type="close" morphofeat="PRP">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <term id="t121" lemma="be" pos="V" type="open" morphofeat="VBD">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <term id="t122" lemma="consider" pos="V" type="open" morphofeat="VBN">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <term id="t123" lemma="a" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <term id="t124" lemma="state" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <term id="t125" lemma="wedding" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <term id="t126" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <term id="t127" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <term id="t128" lemma="first" pos="G" type="open" morphofeat="JJ">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <term id="t129" lemma="in" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <term id="t130" lemma="Spain" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <term id="t131" lemma="for" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <term id="t132" lemma="more" pos="G" type="open" morphofeat="JJR">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <term id="t133" lemma="than" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <term id="t134" lemma="50" pos="O" type="close" morphofeat="CD">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <term id="t135" lemma="year" pos="N" type="open" morphofeat="NNS">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <term id="t136" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <term id="t137" lemma="and" pos="C" type="close" morphofeat="CC">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <term id="t138" lemma="-PRON-" pos="O" type="close" morphofeat="PRP">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <term id="t139" lemma="be" pos="V" type="open" morphofeat="VBD">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <term id="t140" lemma="also" pos="A" type="open" morphofeat="RB">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <term id="t141" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <term id="t142" lemma="first" pos="G" type="open" morphofeat="JJ">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <term id="t143" lemma="wedding" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <term id="t144" lemma="to" pos="O" type="close" morphofeat="TO">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <term id="t145" lemma="be" pos="V" type="open" morphofeat="VB">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <term id="t146" lemma="hold" pos="V" type="open" morphofeat="VBN">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <term id="t147" lemma="in" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <term id="t148" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <term id="t149" lemma="cathedral" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <term id="t150" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <term id="t151" lemma="Madrid" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <term id="t152" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <term id="t153" lemma="which" pos="D" type="close" morphofeat="WDT">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <term id="t154" lemma="have" pos="V" type="open" morphofeat="VBD">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <term id="t155" lemma="be" pos="V" type="open" morphofeat="VBN">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <term id="t156" lemma="consecrate" pos="V" type="open" morphofeat="VBN">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <term id="t157" lemma="in" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <term id="t158" lemma="1993" pos="O" type="close" morphofeat="CD">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <term id="t159" lemma="." pos="O" type="close" morphofeat=".">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <term id="t160" lemma="-PRON-" pos="O" type="close" morphofeat="PRP">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <term id="t161" lemma="be" pos="V" type="open" morphofeat="VBD">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <term id="t162" lemma="also" pos="A" type="open" morphofeat="RB">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <term id="t163" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <term id="t164" lemma="first" pos="G" type="open" morphofeat="JJ">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <term id="t165" lemma="royal" pos="G" type="open" morphofeat="JJ">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <term id="t166" lemma="wedding" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <term id="t167" lemma="hold" pos="V" type="open" morphofeat="VBN">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <term id="t168" lemma="in" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <term id="t169" lemma="Madrid" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <term id="t170" lemma="for" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <term id="t171" lemma="almost" pos="A" type="open" morphofeat="RB">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <term id="t172" lemma="a" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <term id="t173" lemma="century" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <term id="t174" lemma="." pos="O" type="close" morphofeat=".">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+  </terms>
+  <entities>
+    <entity id="e1" type="UNK">
+      <references>
+        <span>
+          <!--A l m u d e n a   C a t h e d r a l-->
+          <target id="t27"/>
+          <target id="t28"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Almudena_Cathedral" resource="Wikipedia"/>
+        <externalRef reference="http://it.wikipedia.org/wiki/Cattedrale_dell'Almudena" resource="Wikipedia"/>
+        <externalRef reference="http://nl.wikipedia.org/wiki/Kathedraal_van_Madrid" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e2" type="UNK">
+      <references>
+        <span>
+          <!--R o y a l   P a l a c e   o f   M a d r i d-->
+          <target id="t30"/>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Royal_Palace_of_Madrid" resource="Wikipedia"/>
+        <externalRef reference="http://it.wikipedia.org/wiki/Palazzo_reale_di_Madrid" resource="Wikipedia"/>
+        <externalRef reference="http://nl.wikipedia.org/wiki/Koninklijk_Paleis_van_Madrid" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e3" type="UNK">
+      <references>
+        <span>
+          <!--S p a n i s h   t h r o n e-->
+          <target id="t51"/>
+          <target id="t52"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Spanish_throne" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e4" type="UNK">
+      <references>
+        <span>
+          <!--A r c h b i s h o p   o f   M a d r i d-->
+          <target id="t71"/>
+          <target id="t72"/>
+          <target id="t73"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Archbishop_of_Madrid" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e5" type="UNK">
+      <references>
+        <span>
+          <!--A n t o n i o   M a r í a   R o u c o   V a r e l a-->
+          <target id="t75"/>
+          <target id="t76"/>
+          <target id="t77"/>
+          <target id="t78"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Antonio_María_Rouco_Varela" resource="Wikipedia"/>
+        <externalRef reference="http://it.wikipedia.org/wiki/Antonio_María_Rouco_Varela" resource="Wikipedia"/>
+        <externalRef reference="http://nl.wikipedia.org/wiki/Antonio_María_Rouco_Varela" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e6" type="UNK">
+      <references>
+        <span>
+          <!--r o y a l   w e d d i n g-->
+          <target id="t165"/>
+          <target id="t166"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Royal_wedding" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+  </entities>
+  <srl>
+    <predicate id="pr1" uri="Forming_relationships">
+      <span>
+        <target id="t13"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" uri="Containing">
+      <span>
+        <target id="t21"/>
+      </span>
+    </predicate>
+    <predicate id="pr3" uri="Interior_profile_relation">
+      <span>
+        <target id="t26"/>
+      </span>
+    </predicate>
+    <predicate id="pr4" uri="Locative_relation">
+      <span>
+        <target id="t29"/>
+      </span>
+    </predicate>
+    <predicate id="pr5" uri="Interior_profile_relation">
+      <span>
+        <target id="t34"/>
+      </span>
+    </predicate>
+    <predicate id="pr6" uri="Locative_relation">
+      <span>
+        <target id="t44"/>
+      </span>
+    </predicate>
+    <predicate id="pr7" uri="Forming_relationships">
+      <span>
+        <target id="t65"/>
+      </span>
+    </predicate>
+    <predicate id="pr8" uri="Proportional_quantity">
+      <span>
+        <target id="t68"/>
+      </span>
+    </predicate>
+    <predicate id="pr9" uri="Forming_relationships">
+      <span>
+        <target id="t82"/>
+      </span>
+    </predicate>
+    <predicate id="pr10" uri="Attending">
+      <span>
+        <target id="t84"/>
+      </span>
+    </predicate>
+    <predicate id="pr11" uri="Inclusion">
+      <span>
+        <target id="t90"/>
+      </span>
+    </predicate>
+    <predicate id="pr12" uri="Buildings">
+      <span>
+        <target id="t93"/>
+      </span>
+    </predicate>
+    <predicate id="pr13" uri="Body_parts">
+      <span>
+        <target id="t98"/>
+      </span>
+    </predicate>
+    <predicate id="pr14" uri="State_of_entity">
+      <span>
+        <target id="t100"/>
+      </span>
+    </predicate>
+    <predicate id="pr15" uri="First_rank">
+      <span>
+        <target id="t106"/>
+      </span>
+    </predicate>
+    <predicate id="pr16" uri="Economy">
+      <span>
+        <target id="t112"/>
+      </span>
+    </predicate>
+    <predicate id="pr17" uri="Type">
+      <span>
+        <target id="t115"/>
+      </span>
+    </predicate>
+    <predicate id="pr18" uri="Categorization">
+      <span>
+        <target id="t122"/>
+      </span>
+    </predicate>
+    <predicate id="pr19" uri="State_of_entity">
+      <span>
+        <target id="t124"/>
+      </span>
+    </predicate>
+    <predicate id="pr20" uri="Ordinal_numbers">
+      <span>
+        <target id="t128"/>
+      </span>
+    </predicate>
+    <predicate id="pr21" uri="Calendric_unit">
+      <span>
+        <target id="t135"/>
+      </span>
+    </predicate>
+    <predicate id="pr22" uri="Ordinal_numbers">
+      <span>
+        <target id="t142"/>
+      </span>
+    </predicate>
+    <predicate id="pr23" uri="Forming_relationships">
+      <span>
+        <target id="t143"/>
+      </span>
+    </predicate>
+    <predicate id="pr24" uri="Containing">
+      <span>
+        <target id="t146"/>
+      </span>
+    </predicate>
+    <predicate id="pr25" uri="Interior_profile_relation">
+      <span>
+        <target id="t147"/>
+      </span>
+    </predicate>
+    <predicate id="pr26" uri="Interior_profile_relation">
+      <span>
+        <target id="t157"/>
+      </span>
+    </predicate>
+    <predicate id="pr27" uri="Ordinal_numbers">
+      <span>
+        <target id="t164"/>
+      </span>
+    </predicate>
+    <predicate id="pr28" uri="Calendric_unit">
+      <span>
+        <target id="t173"/>
+      </span>
+    </predicate>
+  </srl>
+</NAF>

@@ -1,0 +1,839 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3.naf">
+  <nafHeader>
+    <fileDesc creationtime="2019-07-20T00:00:00UTC" title="Wedding of Albert II, Prince of Monaco, and Charlene Wittstock"/>
+    <public uri="https://en.wikipedia.org/wiki/Wedding_of_Albert_II,_Prince_of_Monaco,_and_Charlene_Wittstock"/>
+    <linguisticProcessors layer="terms">
+      <lp beginTimestamp="2019-09-16T10:04:50UTC" endTimestamp="2019-09-16T10:04:50UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="raw">
+      <lp beginTimestamp="2019-09-16T10:04:50UTC" endTimestamp="2019-09-16T10:04:50UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="text">
+      <lp beginTimestamp="2019-09-16T10:04:50UTC" endTimestamp="2019-09-16T10:04:50UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp beginTimestamp="2019-07-20T00:00:00UTC" endTimestamp="2019-07-20T00:00:00UTC" name="Wikipedia" version="2019-07-20"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-" timestamp="2019-09-16T10:07:47CEST" beginTimestamp="2019-09-16T08:04:55UTC" endTimestamp="2019-09-16T08:07:47UTC" hostname="kyoto"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <raw>++Wedding of Albert II, Prince of Monaco, and Charlene Wittstock++.
+The wedding between Albert II, Prince of Monaco, and Charlene Wittstock took place on 1 and 2 July 2011 at the Prince's Palace of Monaco. It has been described as Monaco's "biggest party in 55 years", in other words, the biggest since the wedding of Albert's parents, Rainier III and Grace Kelly. Prince Albert and Wittstock first met in 2000 at a swimming competition in Monaco in which she was participating. They announced their engagement on 23 June 2010.</raw>
+  <text>
+    <wf sent="1" id="w1" length="1" offset="0">+</wf>
+    <wf sent="1" id="w2" length="1" offset="1">+</wf>
+    <wf sent="1" id="w3" length="7" offset="2">Wedding</wf>
+    <wf sent="1" id="w4" length="2" offset="10">of</wf>
+    <wf sent="1" id="w5" length="6" offset="13">Albert</wf>
+    <wf sent="1" id="w6" length="2" offset="20">II</wf>
+    <wf sent="1" id="w7" length="1" offset="22">,</wf>
+    <wf sent="1" id="w8" length="6" offset="24">Prince</wf>
+    <wf sent="1" id="w9" length="2" offset="31">of</wf>
+    <wf sent="1" id="w10" length="6" offset="34">Monaco</wf>
+    <wf sent="1" id="w11" length="1" offset="40">,</wf>
+    <wf sent="1" id="w12" length="3" offset="42">and</wf>
+    <wf sent="1" id="w13" length="8" offset="46">Charlene</wf>
+    <wf sent="1" id="w14" length="11" offset="55">Wittstock++</wf>
+    <wf sent="1" id="w15" length="1" offset="66">.</wf>
+    <wf sent="1" id="w16" length="1" offset="67">
+</wf>
+    <wf sent="2" id="w17" length="3" offset="68">The</wf>
+    <wf sent="2" id="w18" length="7" offset="72">wedding</wf>
+    <wf sent="2" id="w19" length="7" offset="80">between</wf>
+    <wf sent="2" id="w20" length="6" offset="88">Albert</wf>
+    <wf sent="2" id="w21" length="2" offset="95">II</wf>
+    <wf sent="2" id="w22" length="1" offset="97">,</wf>
+    <wf sent="2" id="w23" length="6" offset="99">Prince</wf>
+    <wf sent="2" id="w24" length="2" offset="106">of</wf>
+    <wf sent="2" id="w25" length="6" offset="109">Monaco</wf>
+    <wf sent="2" id="w26" length="1" offset="115">,</wf>
+    <wf sent="2" id="w27" length="3" offset="117">and</wf>
+    <wf sent="2" id="w28" length="8" offset="121">Charlene</wf>
+    <wf sent="2" id="w29" length="9" offset="130">Wittstock</wf>
+    <wf sent="2" id="w30" length="4" offset="140">took</wf>
+    <wf sent="2" id="w31" length="5" offset="145">place</wf>
+    <wf sent="2" id="w32" length="2" offset="151">on</wf>
+    <wf sent="2" id="w33" length="1" offset="154">1</wf>
+    <wf sent="2" id="w34" length="3" offset="156">and</wf>
+    <wf sent="2" id="w35" length="1" offset="160">2</wf>
+    <wf sent="2" id="w36" length="4" offset="162">July</wf>
+    <wf sent="2" id="w37" length="4" offset="167">2011</wf>
+    <wf sent="2" id="w38" length="2" offset="172">at</wf>
+    <wf sent="2" id="w39" length="3" offset="175">the</wf>
+    <wf sent="2" id="w40" length="6" offset="179">Prince</wf>
+    <wf sent="2" id="w41" length="2" offset="185">'s</wf>
+    <wf sent="2" id="w42" length="6" offset="188">Palace</wf>
+    <wf sent="2" id="w43" length="2" offset="195">of</wf>
+    <wf sent="2" id="w44" length="6" offset="198">Monaco</wf>
+    <wf sent="2" id="w45" length="1" offset="204">.</wf>
+    <wf sent="3" id="w46" length="2" offset="206">It</wf>
+    <wf sent="3" id="w47" length="3" offset="209">has</wf>
+    <wf sent="3" id="w48" length="4" offset="213">been</wf>
+    <wf sent="3" id="w49" length="9" offset="218">described</wf>
+    <wf sent="3" id="w50" length="2" offset="228">as</wf>
+    <wf sent="3" id="w51" length="6" offset="231">Monaco</wf>
+    <wf sent="3" id="w52" length="2" offset="237">'s</wf>
+    <wf sent="3" id="w53" length="1" offset="240">"</wf>
+    <wf sent="3" id="w54" length="7" offset="241">biggest</wf>
+    <wf sent="3" id="w55" length="5" offset="249">party</wf>
+    <wf sent="3" id="w56" length="2" offset="255">in</wf>
+    <wf sent="3" id="w57" length="2" offset="258">55</wf>
+    <wf sent="3" id="w58" length="5" offset="261">years</wf>
+    <wf sent="3" id="w59" length="1" offset="266">"</wf>
+    <wf sent="3" id="w60" length="1" offset="267">,</wf>
+    <wf sent="3" id="w61" length="2" offset="269">in</wf>
+    <wf sent="3" id="w62" length="5" offset="272">other</wf>
+    <wf sent="3" id="w63" length="5" offset="278">words</wf>
+    <wf sent="3" id="w64" length="1" offset="283">,</wf>
+    <wf sent="3" id="w65" length="3" offset="285">the</wf>
+    <wf sent="3" id="w66" length="7" offset="289">biggest</wf>
+    <wf sent="3" id="w67" length="5" offset="297">since</wf>
+    <wf sent="3" id="w68" length="3" offset="303">the</wf>
+    <wf sent="3" id="w69" length="7" offset="307">wedding</wf>
+    <wf sent="3" id="w70" length="2" offset="315">of</wf>
+    <wf sent="3" id="w71" length="6" offset="318">Albert</wf>
+    <wf sent="3" id="w72" length="2" offset="324">'s</wf>
+    <wf sent="3" id="w73" length="7" offset="327">parents</wf>
+    <wf sent="3" id="w74" length="1" offset="334">,</wf>
+    <wf sent="3" id="w75" length="7" offset="336">Rainier</wf>
+    <wf sent="3" id="w76" length="3" offset="344">III</wf>
+    <wf sent="3" id="w77" length="3" offset="348">and</wf>
+    <wf sent="3" id="w78" length="5" offset="352">Grace</wf>
+    <wf sent="3" id="w79" length="5" offset="358">Kelly</wf>
+    <wf sent="3" id="w80" length="1" offset="363">.</wf>
+    <wf sent="4" id="w81" length="6" offset="365">Prince</wf>
+    <wf sent="4" id="w82" length="6" offset="372">Albert</wf>
+    <wf sent="4" id="w83" length="3" offset="379">and</wf>
+    <wf sent="4" id="w84" length="9" offset="383">Wittstock</wf>
+    <wf sent="4" id="w85" length="5" offset="393">first</wf>
+    <wf sent="4" id="w86" length="3" offset="399">met</wf>
+    <wf sent="4" id="w87" length="2" offset="403">in</wf>
+    <wf sent="4" id="w88" length="4" offset="406">2000</wf>
+    <wf sent="4" id="w89" length="2" offset="411">at</wf>
+    <wf sent="4" id="w90" length="1" offset="414">a</wf>
+    <wf sent="4" id="w91" length="8" offset="416">swimming</wf>
+    <wf sent="4" id="w92" length="11" offset="425">competition</wf>
+    <wf sent="4" id="w93" length="2" offset="437">in</wf>
+    <wf sent="4" id="w94" length="6" offset="440">Monaco</wf>
+    <wf sent="4" id="w95" length="2" offset="447">in</wf>
+    <wf sent="4" id="w96" length="5" offset="450">which</wf>
+    <wf sent="4" id="w97" length="3" offset="456">she</wf>
+    <wf sent="4" id="w98" length="3" offset="460">was</wf>
+    <wf sent="4" id="w99" length="13" offset="464">participating</wf>
+    <wf sent="4" id="w100" length="1" offset="477">.</wf>
+    <wf sent="5" id="w101" length="4" offset="479">They</wf>
+    <wf sent="5" id="w102" length="9" offset="484">announced</wf>
+    <wf sent="5" id="w103" length="5" offset="494">their</wf>
+    <wf sent="5" id="w104" length="10" offset="500">engagement</wf>
+    <wf sent="5" id="w105" length="2" offset="511">on</wf>
+    <wf sent="5" id="w106" length="2" offset="514">23</wf>
+    <wf sent="5" id="w107" length="4" offset="517">June</wf>
+    <wf sent="5" id="w108" length="4" offset="522">2010</wf>
+    <wf sent="5" id="w109" length="1" offset="526">.</wf>
+  </text>
+  <terms>
+    <term id="t1" lemma="+" pos="O" type="open" morphofeat="XX">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term id="t2" lemma="+" pos="O" type="open" morphofeat="XX">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term id="t3" lemma="wedding" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term id="t4" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term id="t5" lemma="Albert" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term id="t6" lemma="II" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term id="t7" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term id="t8" lemma="Prince" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term id="t9" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term id="t10" lemma="Monaco" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term id="t11" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term id="t12" lemma="and" pos="C" type="close" morphofeat="CC">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term id="t13" lemma="Charlene" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term id="t14" lemma="Wittstock++" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term id="t15" lemma="." pos="O" type="close" morphofeat=".">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term id="t16" lemma="&#10;" pos="O" type="open" morphofeat="_SP">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term id="t17" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term id="t18" lemma="wedding" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term id="t19" lemma="between" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term id="t20" lemma="Albert" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term id="t21" lemma="II" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term id="t22" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term id="t23" lemma="Prince" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term id="t24" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term id="t25" lemma="Monaco" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term id="t26" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <term id="t27" lemma="and" pos="C" type="close" morphofeat="CC">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <term id="t28" lemma="Charlene" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <term id="t29" lemma="Wittstock" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <term id="t30" lemma="take" pos="V" type="open" morphofeat="VBD">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <term id="t31" lemma="place" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <term id="t32" lemma="on" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <term id="t33" lemma="1" pos="O" type="close" morphofeat="CD">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <term id="t34" lemma="and" pos="C" type="close" morphofeat="CC">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <term id="t35" lemma="2" pos="O" type="close" morphofeat="CD">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <term id="t36" lemma="July" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <term id="t37" lemma="2011" pos="O" type="close" morphofeat="CD">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <term id="t38" lemma="at" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <term id="t39" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <term id="t40" lemma="Prince" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <term id="t41" lemma="'s" pos="O" type="close" morphofeat="POS">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <term id="t42" lemma="Palace" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <term id="t43" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <term id="t44" lemma="Monaco" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <term id="t45" lemma="." pos="O" type="close" morphofeat=".">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <term id="t46" lemma="-PRON-" pos="O" type="close" morphofeat="PRP">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <term id="t47" lemma="have" pos="V" type="open" morphofeat="VBZ">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <term id="t48" lemma="be" pos="V" type="open" morphofeat="VBN">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <term id="t49" lemma="describe" pos="V" type="open" morphofeat="VBN">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <term id="t50" lemma="as" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <term id="t51" lemma="Monaco" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <term id="t52" lemma="'s" pos="O" type="close" morphofeat="POS">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <term id="t53" lemma="&quot;" pos="O" type="close" morphofeat="``">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <term id="t54" lemma="big" pos="G" type="open" morphofeat="JJS">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <term id="t55" lemma="party" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <term id="t56" lemma="in" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <term id="t57" lemma="55" pos="O" type="close" morphofeat="CD">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <term id="t58" lemma="year" pos="N" type="open" morphofeat="NNS">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <term id="t59" lemma="&quot;" pos="O" type="close" morphofeat="''">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <term id="t60" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <term id="t61" lemma="in" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <term id="t62" lemma="other" pos="G" type="open" morphofeat="JJ">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <term id="t63" lemma="word" pos="N" type="open" morphofeat="NNS">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <term id="t64" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <term id="t65" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <term id="t66" lemma="big" pos="G" type="open" morphofeat="JJS">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <term id="t67" lemma="since" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <term id="t68" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <term id="t69" lemma="wedding" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <term id="t70" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <term id="t71" lemma="Albert" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <term id="t72" lemma="'s" pos="O" type="close" morphofeat="POS">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <term id="t73" lemma="parent" pos="N" type="open" morphofeat="NNS">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <term id="t74" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <term id="t75" lemma="Rainier" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <term id="t76" lemma="III" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <term id="t77" lemma="and" pos="C" type="close" morphofeat="CC">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <term id="t78" lemma="Grace" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <term id="t79" lemma="Kelly" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <term id="t80" lemma="." pos="O" type="close" morphofeat=".">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <term id="t81" lemma="Prince" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <term id="t82" lemma="Albert" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <term id="t83" lemma="and" pos="C" type="close" morphofeat="CC">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <term id="t84" lemma="Wittstock" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <term id="t85" lemma="first" pos="A" type="open" morphofeat="RB">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <term id="t86" lemma="meet" pos="V" type="open" morphofeat="VBD">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <term id="t87" lemma="in" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <term id="t88" lemma="2000" pos="O" type="close" morphofeat="CD">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <term id="t89" lemma="at" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <term id="t90" lemma="a" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <term id="t91" lemma="swimming" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <term id="t92" lemma="competition" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <term id="t93" lemma="in" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <term id="t94" lemma="Monaco" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <term id="t95" lemma="in" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <term id="t96" lemma="which" pos="D" type="close" morphofeat="WDT">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <term id="t97" lemma="-PRON-" pos="O" type="close" morphofeat="PRP">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <term id="t98" lemma="be" pos="V" type="open" morphofeat="VBD">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <term id="t99" lemma="participate" pos="V" type="open" morphofeat="VBG">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <term id="t100" lemma="." pos="O" type="close" morphofeat=".">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <term id="t101" lemma="-PRON-" pos="O" type="close" morphofeat="PRP">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <term id="t102" lemma="announce" pos="V" type="open" morphofeat="VBD">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <term id="t103" lemma="-PRON-" pos="D" type="close" morphofeat="PRP$">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <term id="t104" lemma="engagement" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <term id="t105" lemma="on" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <term id="t106" lemma="23" pos="O" type="close" morphofeat="CD">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <term id="t107" lemma="June" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <term id="t108" lemma="2010" pos="O" type="close" morphofeat="CD">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <term id="t109" lemma="." pos="O" type="close" morphofeat=".">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+  </terms>
+  <entities>
+    <entity id="e1" type="UNK">
+      <references>
+        <span>
+          <!--A l b e r t   I I ,   P r i n c e   o f   M o n a c o-->
+          <target id="t20"/>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t25"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Albert_II,_Prince_of_Monaco" resource="Wikipedia"/>
+        <externalRef reference="http://it.wikipedia.org/wiki/Alberto_II_di_Monaco" resource="Wikipedia"/>
+        <externalRef reference="http://nl.wikipedia.org/wiki/Albert_II_van_Monaco" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e2" type="UNK">
+      <references>
+        <span>
+          <!--C h a r l e n e   W i t t s t o c k-->
+          <target id="t28"/>
+          <target id="t29"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Charlene,_Princess_of_Monaco" resource="Wikipedia"/>
+        <externalRef reference="http://it.wikipedia.org/wiki/Charlène_Wittstock" resource="Wikipedia"/>
+        <externalRef reference="http://nl.wikipedia.org/wiki/Charlene_Wittstock" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e3" type="UNK">
+      <references>
+        <span>
+          <!--P r i n c e ' s   P a l a c e   o f   M o n a c o-->
+          <target id="t40"/>
+          <target id="t41"/>
+          <target id="t42"/>
+          <target id="t43"/>
+          <target id="t44"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Prince's_Palace_of_Monaco" resource="Wikipedia"/>
+        <externalRef reference="http://it.wikipedia.org/wiki/Palazzo_dei_Principi_di_Monaco" resource="Wikipedia"/>
+        <externalRef reference="http://nl.wikipedia.org/wiki/Prinselijk_paleis_van_Monaco" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e4" type="UNK">
+      <references>
+        <span>
+          <!--R a i n i e r   I I I-->
+          <target id="t75"/>
+          <target id="t76"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Rainier_III,_Prince_of_Monaco" resource="Wikipedia"/>
+        <externalRef reference="http://it.wikipedia.org/wiki/Ranieri_III_di_Monaco" resource="Wikipedia"/>
+        <externalRef reference="http://nl.wikipedia.org/wiki/Reinier_III_van_Monaco" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e5" type="UNK">
+      <references>
+        <span>
+          <!--G r a c e   K e l l y-->
+          <target id="t78"/>
+          <target id="t79"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Grace_Kelly" resource="Wikipedia"/>
+        <externalRef reference="http://it.wikipedia.org/wiki/Grace_Kelly" resource="Wikipedia"/>
+        <externalRef reference="http://nl.wikipedia.org/wiki/Grace_Kelly" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+  </entities>
+  <srl>
+    <predicate id="pr1" uri="Forming_relationships">
+      <span>
+        <target id="t18"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" uri="Taking_time">
+      <span>
+        <target id="t30"/>
+      </span>
+    </predicate>
+    <predicate id="pr3" uri="Locale">
+      <span>
+        <target id="t31"/>
+      </span>
+    </predicate>
+    <predicate id="pr4" uri="Communicate_categorization">
+      <span>
+        <target id="t49"/>
+      </span>
+    </predicate>
+    <predicate id="pr5" uri="Calendric_unit">
+      <span>
+        <target id="t58"/>
+      </span>
+    </predicate>
+    <predicate id="pr6" uri="Increment">
+      <span>
+        <target id="t62"/>
+      </span>
+    </predicate>
+    <predicate id="pr7" uri="Time_vector">
+      <span>
+        <target id="t67"/>
+      </span>
+    </predicate>
+    <predicate id="pr8" uri="Forming_relationships">
+      <span>
+        <target id="t69"/>
+      </span>
+    </predicate>
+    <predicate id="pr9" uri="Kinship">
+      <span>
+        <target id="t73"/>
+      </span>
+    </predicate>
+    <predicate id="pr10" uri="Leadership">
+      <span>
+        <target id="t81"/>
+      </span>
+    </predicate>
+    <predicate id="pr11" uri="First_experience">
+      <span>
+        <target id="t85"/>
+      </span>
+    </predicate>
+    <predicate id="pr12" uri="Competition">
+      <span>
+        <target id="t92"/>
+      </span>
+    </predicate>
+    <predicate id="pr13" uri="Participation">
+      <span>
+        <target id="t99"/>
+      </span>
+    </predicate>
+    <predicate id="pr14" uri="Statement">
+      <span>
+        <target id="t102"/>
+      </span>
+    </predicate>
+    <predicate id="pr15" uri="Calendric_unit">
+      <span>
+        <target id="t107"/>
+      </span>
+    </predicate>
+  </srl>
+</NAF>

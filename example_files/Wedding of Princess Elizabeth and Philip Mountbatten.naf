@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3.naf">
+  <nafHeader>
+    <fileDesc creationtime="2019-07-20T00:00:00UTC" title="Wedding of Princess Elizabeth and Philip Mountbatten"/>
+    <public uri="https://en.wikipedia.org/wiki/Wedding_of_Princess_Elizabeth_and_Philip_Mountbatten"/>
+    <linguisticProcessors layer="terms">
+      <lp beginTimestamp="2019-09-16T10:04:51UTC" endTimestamp="2019-09-16T10:04:51UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="raw">
+      <lp beginTimestamp="2019-09-16T10:04:51UTC" endTimestamp="2019-09-16T10:04:51UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="text">
+      <lp beginTimestamp="2019-09-16T10:04:51UTC" endTimestamp="2019-09-16T10:04:51UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp beginTimestamp="2019-07-20T00:00:00UTC" endTimestamp="2019-07-20T00:00:00UTC" name="Wikipedia" version="2019-07-20"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-" timestamp="2019-09-16T10:07:47CEST" beginTimestamp="2019-09-16T08:04:55UTC" endTimestamp="2019-09-16T08:07:47UTC" hostname="kyoto"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <raw>++Wedding of Princess Elizabeth and Philip Mountbatten++.
+The wedding of Princess Elizabeth and Philip Mountbatten took place on 20 November 1947 at Westminster Abbey in London. Philip had been made Duke of Edinburgh on the morning of the wedding.</raw>
+  <text>
+    <wf sent="1" id="w1" length="1" offset="0">+</wf>
+    <wf sent="1" id="w2" length="1" offset="1">+</wf>
+    <wf sent="1" id="w3" length="7" offset="2">Wedding</wf>
+    <wf sent="1" id="w4" length="2" offset="10">of</wf>
+    <wf sent="1" id="w5" length="8" offset="13">Princess</wf>
+    <wf sent="1" id="w6" length="9" offset="22">Elizabeth</wf>
+    <wf sent="1" id="w7" length="3" offset="32">and</wf>
+    <wf sent="1" id="w8" length="6" offset="36">Philip</wf>
+    <wf sent="1" id="w9" length="13" offset="43">Mountbatten++</wf>
+    <wf sent="1" id="w10" length="1" offset="56">.</wf>
+    <wf sent="1" id="w11" length="1" offset="57">
+</wf>
+    <wf sent="2" id="w12" length="3" offset="58">The</wf>
+    <wf sent="2" id="w13" length="7" offset="62">wedding</wf>
+    <wf sent="2" id="w14" length="2" offset="70">of</wf>
+    <wf sent="2" id="w15" length="8" offset="73">Princess</wf>
+    <wf sent="2" id="w16" length="9" offset="82">Elizabeth</wf>
+    <wf sent="2" id="w17" length="3" offset="92">and</wf>
+    <wf sent="2" id="w18" length="6" offset="96">Philip</wf>
+    <wf sent="2" id="w19" length="11" offset="103">Mountbatten</wf>
+    <wf sent="2" id="w20" length="4" offset="115">took</wf>
+    <wf sent="2" id="w21" length="5" offset="120">place</wf>
+    <wf sent="2" id="w22" length="2" offset="126">on</wf>
+    <wf sent="2" id="w23" length="2" offset="129">20</wf>
+    <wf sent="2" id="w24" length="8" offset="132">November</wf>
+    <wf sent="2" id="w25" length="4" offset="141">1947</wf>
+    <wf sent="2" id="w26" length="2" offset="146">at</wf>
+    <wf sent="2" id="w27" length="11" offset="149">Westminster</wf>
+    <wf sent="2" id="w28" length="5" offset="161">Abbey</wf>
+    <wf sent="2" id="w29" length="2" offset="167">in</wf>
+    <wf sent="2" id="w30" length="6" offset="170">London</wf>
+    <wf sent="2" id="w31" length="1" offset="176">.</wf>
+    <wf sent="3" id="w32" length="6" offset="178">Philip</wf>
+    <wf sent="3" id="w33" length="3" offset="185">had</wf>
+    <wf sent="3" id="w34" length="4" offset="189">been</wf>
+    <wf sent="3" id="w35" length="4" offset="194">made</wf>
+    <wf sent="3" id="w36" length="4" offset="199">Duke</wf>
+    <wf sent="3" id="w37" length="2" offset="204">of</wf>
+    <wf sent="3" id="w38" length="9" offset="207">Edinburgh</wf>
+    <wf sent="3" id="w39" length="2" offset="217">on</wf>
+    <wf sent="3" id="w40" length="3" offset="220">the</wf>
+    <wf sent="3" id="w41" length="7" offset="224">morning</wf>
+    <wf sent="3" id="w42" length="2" offset="232">of</wf>
+    <wf sent="3" id="w43" length="3" offset="235">the</wf>
+    <wf sent="3" id="w44" length="7" offset="239">wedding</wf>
+    <wf sent="3" id="w45" length="1" offset="246">.</wf>
+  </text>
+  <terms>
+    <term id="t1" lemma="+" pos="O" type="open" morphofeat="XX">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term id="t2" lemma="+" pos="O" type="open" morphofeat="XX">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term id="t3" lemma="wedding" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term id="t4" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term id="t5" lemma="Princess" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term id="t6" lemma="Elizabeth" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term id="t7" lemma="and" pos="C" type="close" morphofeat="CC">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term id="t8" lemma="Philip" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term id="t9" lemma="Mountbatten++" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term id="t10" lemma="." pos="O" type="close" morphofeat=".">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term id="t11" lemma="&#10;" pos="O" type="open" morphofeat="_SP">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term id="t12" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term id="t13" lemma="wedding" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term id="t14" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term id="t15" lemma="Princess" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term id="t16" lemma="Elizabeth" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term id="t17" lemma="and" pos="C" type="close" morphofeat="CC">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term id="t18" lemma="Philip" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term id="t19" lemma="Mountbatten" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term id="t20" lemma="take" pos="V" type="open" morphofeat="VBD">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term id="t21" lemma="place" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term id="t22" lemma="on" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term id="t23" lemma="20" pos="O" type="close" morphofeat="CD">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term id="t24" lemma="November" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term id="t25" lemma="1947" pos="O" type="close" morphofeat="CD">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term id="t26" lemma="at" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <term id="t27" lemma="Westminster" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <term id="t28" lemma="Abbey" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <term id="t29" lemma="in" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <term id="t30" lemma="London" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <term id="t31" lemma="." pos="O" type="close" morphofeat=".">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <term id="t32" lemma="Philip" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <term id="t33" lemma="have" pos="V" type="open" morphofeat="VBD">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <term id="t34" lemma="be" pos="V" type="open" morphofeat="VBN">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <term id="t35" lemma="make" pos="V" type="open" morphofeat="VBN">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <term id="t36" lemma="Duke" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <term id="t37" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <term id="t38" lemma="Edinburgh" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <term id="t39" lemma="on" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <term id="t40" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <term id="t41" lemma="morning" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <term id="t42" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <term id="t43" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <term id="t44" lemma="wedding" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <term id="t45" lemma="." pos="O" type="close" morphofeat=".">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+  </terms>
+  <entities>
+    <entity id="e1" type="UNK">
+      <references>
+        <span>
+          <!--W e s t m i n s t e r   A b b e y-->
+          <target id="t27"/>
+          <target id="t28"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Westminster_Abbey" resource="Wikipedia"/>
+        <externalRef reference="http://it.wikipedia.org/wiki/Abbazia_di_Westminster" resource="Wikipedia"/>
+        <externalRef reference="http://nl.wikipedia.org/wiki/Westminster_Abbey" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e2" type="UNK">
+      <references>
+        <span>
+          <!--D u k e   o f   E d i n b u r g h-->
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Duke_of_Edinburgh" resource="Wikipedia"/>
+        <externalRef reference="http://it.wikipedia.org/wiki/Duca_di_Edimburgo" resource="Wikipedia"/>
+        <externalRef reference="http://nl.wikipedia.org/wiki/Hertog_van_Edinburgh" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+  </entities>
+  <srl>
+    <predicate id="pr1" uri="Forming_relationships">
+      <span>
+        <target id="t13"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" uri="Locale">
+      <span>
+        <target id="t21"/>
+      </span>
+    </predicate>
+    <predicate id="pr3" uri="Causation">
+      <span>
+        <target id="t35"/>
+      </span>
+    </predicate>
+    <predicate id="pr4" uri="Spatial_contact">
+      <span>
+        <target id="t39"/>
+      </span>
+    </predicate>
+    <predicate id="pr5" uri="Calendric_unit">
+      <span>
+        <target id="t41"/>
+      </span>
+    </predicate>
+    <predicate id="pr6" uri="Forming_relationships">
+      <span>
+        <target id="t44"/>
+      </span>
+    </predicate>
+  </srl>
+</NAF>

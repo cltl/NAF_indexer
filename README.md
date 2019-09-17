@@ -19,13 +19,9 @@ pip install -r requirements.txt
 ```
 
 ## How to use
-Perform the following call for more information about usage
-```
-python represent_naf.py -h
-```
+Inspect represent_naf.py for more information
 
-Please check `how_to_use.py` for how to work with the output format.
-    
+   
 ## Authors
 * **Marten Postma** (m.c.postma@vu.nl)
 

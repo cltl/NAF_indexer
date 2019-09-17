@@ -1,3 +1,214 @@
+from collections import defaultdict, Counter
+from lxml import etree
+import pandas
+import utils
+
+class NAF_collection:
+    """
+
+    """
+    def __init__(self):
+        self.documents = []
+        self.lang_title2naf_obj = {}
+
+
+    def __str__(self):
+        info = []
+        info.append(f'number of documents: {len(self.documents)}')
+
+        return '\t'.join(info)
+
+
+    def add_naf_documents(self, paths, verbose=0):
+        """
+        create NAF_document class instances and update self.documents
+
+        :param iterable paths: iterable of paths to NAF files
+        """
+        for naf_file in paths:
+            doc = etree.parse(naf_file)
+            root = doc.getroot()
+            lang = root.get('{http://www.w3.org/XML/1998/namespace}lang')
+
+            # title
+            file_desc_el = root.find('nafHeader/fileDesc')
+            title = file_desc_el.get('title')
+
+            naf_obj = NAF_document(title, lang, doc)
+            self.lang_title2naf_obj[(lang, title)] = naf_obj
+
+            if verbose >= 3:
+                print()
+                print(f'processing {title}')
+
+            w_els = doc.xpath('text/wf')
+            t_els = doc.xpath('terms/term')
+
+            assert len(w_els) == len(t_els), f'{title} mismatch in number of w_els and t_els'
+
+            for w_el, t_el in zip(w_els, t_els):
+                sent_number = w_el.get('sent')
+                sent_id = int(sent_number)
+                token_obj = Token(sent_id, w_el, t_el)
+
+                if sent_id not in naf_obj.sent_id2sent_obj:
+                    sent_obj = Sent(sent_id, lang)
+                    naf_obj.sent_id2sent_obj[sent_id] = sent_obj
+                else:
+                    sent_obj = naf_obj.sent_id2sent_obj[sent_id]
+
+                # update dicts
+                sent_obj.tokens.append(token_obj)
+
+                w_id = token_obj.token_id
+                t_id = naf_obj.wid2tid[w_id]
+                index = len(sent_obj.tokens)
+
+                naf_obj.tid2sentid_index[t_id] = (sent_id, index)
+
+            self.documents.append(naf_obj)
+
+        if verbose:
+            print(self)
+
+    def merge_distributions(self, attribute):
+        """
+
+        :param attribute:
+        :return:
+        """
+        supported = {'terms'}
+        assert attribute in {'terms'}, f'supported: {supported} -> enter: {attribute}'
+
+        merged_info = {
+            'distribution' : defaultdict(int),
+            'occurrences' : defaultdict(list),
+        }
+        for naf_obj in self.documents:
+
+            doc_info = getattr(naf_obj, attribute)
+
+            for key, value in doc_info['distribution'].items():
+                merged_info['distribution'][key] += value
+
+            for key, value in doc_info['occurrences'].items():
+                merged_info['occurrences'][key].extend(value)
+
+        setattr(self, attribute, merged_info)
+
+    def distribution_as_df(self, attribute, rel_freq=True):
+        """
+        return distribution as df with optionally the relative frequency
+
+        :param str attribute: terms
+
+        :return: pandas Dataframe
+        """
+        supported = {'terms'}
+        assert attribute in {'terms'}, f'supported: {supported} -> enter: {attribute}'
+
+        list_of_lists = []
+        headers = [attribute, 'Freq']
+        if rel_freq:
+            headers.append('%')
+
+        distribution = getattr(self, attribute)['distribution']
+        total = sum(distribution.values())
+        for key, value in distribution.items():
+
+            one_row = [key, value]
+
+            if rel_freq:
+                perc = utils.perc_it(value, total)
+                one_row.append(perc)
+
+            list_of_lists.append(one_row)
+
+        df = pandas.DataFrame(list_of_lists, columns=headers)
+
+        return df
+
+
+    def print_occurrences(self, attribute, lang, item):
+        """
+
+        :param str attribute: supported: terms
+        :param str lang: en | it | nl
+        :param item : e.g, 'wedding---N'
+        """
+        supported = {'terms'}
+        assert attribute in {'terms'}, f'supported: {supported} -> enter: {attribute}'
+
+        all_occurrences = getattr(self, attribute)['occurrences']
+        occurrences = all_occurrences[(lang, item)]
+
+        for title, sent_id, index in occurrences:
+            naf_obj = self.lang_title2naf_obj[(lang, title)]
+            sent_obj = naf_obj.sent_id2sent_obj[sent_id]
+            print(f'INDEX: {index} for {lang} {item}')
+            print(sent_obj)
+
+
+class NAF_document:
+    """
+
+    """
+    def __init__(self, title, language, doc):
+        self.title = title
+        self.language = language
+        self.doc = doc
+        self.sent_id2sent_obj = {}
+
+        self.wid2tid = self.load_wid2tid(doc)
+        self.tid2sentid_index = {}
+
+        self.terms = {} # use load_terms_info
+
+    def load_wid2tid(self, doc):
+        wid2tid = {}
+        for target_el in doc.xpath('terms/term/span/target'):
+            w_id = target_el.get('id')
+            grandparent = target_el.getparent().getparent()
+            t_id = grandparent.get('id')
+            wid2tid[w_id] = t_id
+
+        return wid2tid
+
+
+    def set_terms_attribute(self, pos_mapping):
+        lemma_pos2occurrences = defaultdict(list)
+
+        for sent_id, sent_obj in self.sent_id2sent_obj.items():
+            lang = sent_obj.lang
+
+            for index, token_obj in enumerate(sent_obj.tokens):
+                lemma = token_obj.lemma
+                pos = token_obj.pos
+
+                add = False
+                pos_to_use = pos
+
+                if pos_mapping:
+                    if pos in pos_mapping:
+                        pos_to_use = pos_mapping[pos]
+                        add = True
+                else:
+                    add = True
+
+                if add:
+                    item = '---'.join([lemma, pos_to_use])
+                    lemma_pos2occurrences[(lang, item)].append((self.title, sent_id, [index]))
+
+        distribution = Counter([key
+                                for key, occurrences in lemma_pos2occurrences.items()
+                                for _ in range(len(occurrences))])
+
+        self.terms = {'occurrences' : lemma_pos2occurrences,
+                      'distribution' : distribution}
+
+
+
+
 
 
 class Sent:

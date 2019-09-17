@@ -1,0 +1,1375 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3.naf">
+  <nafHeader>
+    <fileDesc creationtime="2019-07-20T00:00:00UTC" title="Wedding of Prince Harry and Meghan Markle"/>
+    <public uri="https://en.wikipedia.org/wiki/Wedding_of_Prince_Harry_and_Meghan_Markle"/>
+    <linguisticProcessors layer="terms">
+      <lp beginTimestamp="2019-09-16T10:04:51UTC" endTimestamp="2019-09-16T10:04:51UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="raw">
+      <lp beginTimestamp="2019-09-16T10:04:51UTC" endTimestamp="2019-09-16T10:04:51UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="text">
+      <lp beginTimestamp="2019-09-16T10:04:51UTC" endTimestamp="2019-09-16T10:04:51UTC" name="spaCy-model_en_core_web_sm" version="spaCy_version-2.1.4__model_version-2.1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp beginTimestamp="2019-07-20T00:00:00UTC" endTimestamp="2019-07-20T00:00:00UTC" name="Wikipedia" version="2019-07-20"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="open-sesame" version="commit-" timestamp="2019-09-16T10:07:47CEST" beginTimestamp="2019-09-16T08:04:55UTC" endTimestamp="2019-09-16T08:07:47UTC" hostname="kyoto"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <raw>++Wedding of Prince Harry and Meghan Markle++.
+The wedding of Prince Harry and Meghan Markle was held on 19 May 2018 in St George's Chapel at Windsor Castle in the United Kingdom. The groom, Prince Harry, is a member of the British royal family; the bride, Meghan Markle, is American and previously worked as an actress. On the morning of the wedding, Prince Harry's grandmother, Queen Elizabeth II, conferred upon him the titles of Duke of Sussex, Earl of Dumbarton and Baron Kilkeel. On her marriage, Markle became Duchess of Sussex, Countess of Dumbarton and Baroness Kilkeel. The Archbishop of Canterbury, Justin Welby, officiated at the wedding using the standard Anglican church service for Holy Matrimony published in "Common Worship", the liturgical text of the Church of England. The traditional ceremony was noted for the inclusion of African American culture.</raw>
+  <text>
+    <wf sent="1" id="w1" length="1" offset="0">+</wf>
+    <wf sent="1" id="w2" length="1" offset="1">+</wf>
+    <wf sent="1" id="w3" length="7" offset="2">Wedding</wf>
+    <wf sent="1" id="w4" length="2" offset="10">of</wf>
+    <wf sent="1" id="w5" length="6" offset="13">Prince</wf>
+    <wf sent="1" id="w6" length="5" offset="20">Harry</wf>
+    <wf sent="1" id="w7" length="3" offset="26">and</wf>
+    <wf sent="1" id="w8" length="6" offset="30">Meghan</wf>
+    <wf sent="1" id="w9" length="8" offset="37">Markle++</wf>
+    <wf sent="1" id="w10" length="1" offset="45">.</wf>
+    <wf sent="1" id="w11" length="1" offset="46">
+</wf>
+    <wf sent="2" id="w12" length="3" offset="47">The</wf>
+    <wf sent="2" id="w13" length="7" offset="51">wedding</wf>
+    <wf sent="2" id="w14" length="2" offset="59">of</wf>
+    <wf sent="2" id="w15" length="6" offset="62">Prince</wf>
+    <wf sent="2" id="w16" length="5" offset="69">Harry</wf>
+    <wf sent="2" id="w17" length="3" offset="75">and</wf>
+    <wf sent="2" id="w18" length="6" offset="79">Meghan</wf>
+    <wf sent="2" id="w19" length="6" offset="86">Markle</wf>
+    <wf sent="2" id="w20" length="3" offset="93">was</wf>
+    <wf sent="2" id="w21" length="4" offset="97">held</wf>
+    <wf sent="2" id="w22" length="2" offset="102">on</wf>
+    <wf sent="2" id="w23" length="2" offset="105">19</wf>
+    <wf sent="2" id="w24" length="3" offset="108">May</wf>
+    <wf sent="2" id="w25" length="4" offset="112">2018</wf>
+    <wf sent="2" id="w26" length="2" offset="117">in</wf>
+    <wf sent="2" id="w27" length="2" offset="120">St</wf>
+    <wf sent="2" id="w28" length="6" offset="123">George</wf>
+    <wf sent="2" id="w29" length="2" offset="129">'s</wf>
+    <wf sent="2" id="w30" length="6" offset="132">Chapel</wf>
+    <wf sent="2" id="w31" length="2" offset="139">at</wf>
+    <wf sent="2" id="w32" length="7" offset="142">Windsor</wf>
+    <wf sent="2" id="w33" length="6" offset="150">Castle</wf>
+    <wf sent="2" id="w34" length="2" offset="157">in</wf>
+    <wf sent="2" id="w35" length="3" offset="160">the</wf>
+    <wf sent="2" id="w36" length="6" offset="164">United</wf>
+    <wf sent="2" id="w37" length="7" offset="171">Kingdom</wf>
+    <wf sent="2" id="w38" length="1" offset="178">.</wf>
+    <wf sent="3" id="w39" length="3" offset="180">The</wf>
+    <wf sent="3" id="w40" length="5" offset="184">groom</wf>
+    <wf sent="3" id="w41" length="1" offset="189">,</wf>
+    <wf sent="3" id="w42" length="6" offset="191">Prince</wf>
+    <wf sent="3" id="w43" length="5" offset="198">Harry</wf>
+    <wf sent="3" id="w44" length="1" offset="203">,</wf>
+    <wf sent="3" id="w45" length="2" offset="205">is</wf>
+    <wf sent="3" id="w46" length="1" offset="208">a</wf>
+    <wf sent="3" id="w47" length="6" offset="210">member</wf>
+    <wf sent="3" id="w48" length="2" offset="217">of</wf>
+    <wf sent="3" id="w49" length="3" offset="220">the</wf>
+    <wf sent="3" id="w50" length="7" offset="224">British</wf>
+    <wf sent="3" id="w51" length="5" offset="232">royal</wf>
+    <wf sent="3" id="w52" length="6" offset="238">family</wf>
+    <wf sent="3" id="w53" length="1" offset="244">;</wf>
+    <wf sent="3" id="w54" length="3" offset="246">the</wf>
+    <wf sent="3" id="w55" length="5" offset="250">bride</wf>
+    <wf sent="3" id="w56" length="1" offset="255">,</wf>
+    <wf sent="3" id="w57" length="6" offset="257">Meghan</wf>
+    <wf sent="3" id="w58" length="6" offset="264">Markle</wf>
+    <wf sent="3" id="w59" length="1" offset="270">,</wf>
+    <wf sent="3" id="w60" length="2" offset="272">is</wf>
+    <wf sent="3" id="w61" length="8" offset="275">American</wf>
+    <wf sent="3" id="w62" length="3" offset="284">and</wf>
+    <wf sent="3" id="w63" length="10" offset="288">previously</wf>
+    <wf sent="3" id="w64" length="6" offset="299">worked</wf>
+    <wf sent="3" id="w65" length="2" offset="306">as</wf>
+    <wf sent="3" id="w66" length="2" offset="309">an</wf>
+    <wf sent="3" id="w67" length="7" offset="312">actress</wf>
+    <wf sent="3" id="w68" length="1" offset="319">.</wf>
+    <wf sent="4" id="w69" length="2" offset="321">On</wf>
+    <wf sent="4" id="w70" length="3" offset="324">the</wf>
+    <wf sent="4" id="w71" length="7" offset="328">morning</wf>
+    <wf sent="4" id="w72" length="2" offset="336">of</wf>
+    <wf sent="4" id="w73" length="3" offset="339">the</wf>
+    <wf sent="4" id="w74" length="7" offset="343">wedding</wf>
+    <wf sent="4" id="w75" length="1" offset="350">,</wf>
+    <wf sent="4" id="w76" length="6" offset="352">Prince</wf>
+    <wf sent="4" id="w77" length="5" offset="359">Harry</wf>
+    <wf sent="4" id="w78" length="2" offset="364">'s</wf>
+    <wf sent="4" id="w79" length="11" offset="367">grandmother</wf>
+    <wf sent="4" id="w80" length="1" offset="378">,</wf>
+    <wf sent="4" id="w81" length="5" offset="380">Queen</wf>
+    <wf sent="4" id="w82" length="9" offset="386">Elizabeth</wf>
+    <wf sent="4" id="w83" length="2" offset="396">II</wf>
+    <wf sent="4" id="w84" length="1" offset="398">,</wf>
+    <wf sent="4" id="w85" length="9" offset="400">conferred</wf>
+    <wf sent="4" id="w86" length="4" offset="410">upon</wf>
+    <wf sent="4" id="w87" length="3" offset="415">him</wf>
+    <wf sent="4" id="w88" length="3" offset="419">the</wf>
+    <wf sent="4" id="w89" length="6" offset="423">titles</wf>
+    <wf sent="4" id="w90" length="2" offset="430">of</wf>
+    <wf sent="4" id="w91" length="4" offset="433">Duke</wf>
+    <wf sent="4" id="w92" length="2" offset="438">of</wf>
+    <wf sent="4" id="w93" length="6" offset="441">Sussex</wf>
+    <wf sent="4" id="w94" length="1" offset="447">,</wf>
+    <wf sent="4" id="w95" length="4" offset="449">Earl</wf>
+    <wf sent="4" id="w96" length="2" offset="454">of</wf>
+    <wf sent="4" id="w97" length="9" offset="457">Dumbarton</wf>
+    <wf sent="4" id="w98" length="3" offset="467">and</wf>
+    <wf sent="4" id="w99" length="5" offset="471">Baron</wf>
+    <wf sent="4" id="w100" length="7" offset="477">Kilkeel</wf>
+    <wf sent="4" id="w101" length="1" offset="484">.</wf>
+    <wf sent="5" id="w102" length="2" offset="486">On</wf>
+    <wf sent="5" id="w103" length="3" offset="489">her</wf>
+    <wf sent="5" id="w104" length="8" offset="493">marriage</wf>
+    <wf sent="5" id="w105" length="1" offset="501">,</wf>
+    <wf sent="5" id="w106" length="6" offset="503">Markle</wf>
+    <wf sent="5" id="w107" length="6" offset="510">became</wf>
+    <wf sent="5" id="w108" length="7" offset="517">Duchess</wf>
+    <wf sent="5" id="w109" length="2" offset="525">of</wf>
+    <wf sent="5" id="w110" length="6" offset="528">Sussex</wf>
+    <wf sent="5" id="w111" length="1" offset="534">,</wf>
+    <wf sent="5" id="w112" length="8" offset="536">Countess</wf>
+    <wf sent="5" id="w113" length="2" offset="545">of</wf>
+    <wf sent="5" id="w114" length="9" offset="548">Dumbarton</wf>
+    <wf sent="5" id="w115" length="3" offset="558">and</wf>
+    <wf sent="5" id="w116" length="8" offset="562">Baroness</wf>
+    <wf sent="5" id="w117" length="7" offset="571">Kilkeel</wf>
+    <wf sent="5" id="w118" length="1" offset="578">.</wf>
+    <wf sent="6" id="w119" length="3" offset="580">The</wf>
+    <wf sent="6" id="w120" length="10" offset="584">Archbishop</wf>
+    <wf sent="6" id="w121" length="2" offset="595">of</wf>
+    <wf sent="6" id="w122" length="10" offset="598">Canterbury</wf>
+    <wf sent="6" id="w123" length="1" offset="608">,</wf>
+    <wf sent="6" id="w124" length="6" offset="610">Justin</wf>
+    <wf sent="6" id="w125" length="5" offset="617">Welby</wf>
+    <wf sent="6" id="w126" length="1" offset="622">,</wf>
+    <wf sent="6" id="w127" length="10" offset="624">officiated</wf>
+    <wf sent="6" id="w128" length="2" offset="635">at</wf>
+    <wf sent="6" id="w129" length="3" offset="638">the</wf>
+    <wf sent="6" id="w130" length="7" offset="642">wedding</wf>
+    <wf sent="6" id="w131" length="5" offset="650">using</wf>
+    <wf sent="6" id="w132" length="3" offset="656">the</wf>
+    <wf sent="6" id="w133" length="8" offset="660">standard</wf>
+    <wf sent="6" id="w134" length="8" offset="669">Anglican</wf>
+    <wf sent="6" id="w135" length="6" offset="678">church</wf>
+    <wf sent="6" id="w136" length="7" offset="685">service</wf>
+    <wf sent="6" id="w137" length="3" offset="693">for</wf>
+    <wf sent="6" id="w138" length="4" offset="697">Holy</wf>
+    <wf sent="6" id="w139" length="9" offset="702">Matrimony</wf>
+    <wf sent="6" id="w140" length="9" offset="712">published</wf>
+    <wf sent="6" id="w141" length="2" offset="722">in</wf>
+    <wf sent="6" id="w142" length="1" offset="725">"</wf>
+    <wf sent="6" id="w143" length="6" offset="726">Common</wf>
+    <wf sent="6" id="w144" length="7" offset="733">Worship</wf>
+    <wf sent="6" id="w145" length="1" offset="740">"</wf>
+    <wf sent="6" id="w146" length="1" offset="741">,</wf>
+    <wf sent="6" id="w147" length="3" offset="743">the</wf>
+    <wf sent="6" id="w148" length="10" offset="747">liturgical</wf>
+    <wf sent="6" id="w149" length="4" offset="758">text</wf>
+    <wf sent="6" id="w150" length="2" offset="763">of</wf>
+    <wf sent="6" id="w151" length="3" offset="766">the</wf>
+    <wf sent="6" id="w152" length="6" offset="770">Church</wf>
+    <wf sent="6" id="w153" length="2" offset="777">of</wf>
+    <wf sent="6" id="w154" length="7" offset="780">England</wf>
+    <wf sent="6" id="w155" length="1" offset="787">.</wf>
+    <wf sent="7" id="w156" length="3" offset="789">The</wf>
+    <wf sent="7" id="w157" length="11" offset="793">traditional</wf>
+    <wf sent="7" id="w158" length="8" offset="805">ceremony</wf>
+    <wf sent="7" id="w159" length="3" offset="814">was</wf>
+    <wf sent="7" id="w160" length="5" offset="818">noted</wf>
+    <wf sent="7" id="w161" length="3" offset="824">for</wf>
+    <wf sent="7" id="w162" length="3" offset="828">the</wf>
+    <wf sent="7" id="w163" length="9" offset="832">inclusion</wf>
+    <wf sent="7" id="w164" length="2" offset="842">of</wf>
+    <wf sent="7" id="w165" length="7" offset="845">African</wf>
+    <wf sent="7" id="w166" length="8" offset="853">American</wf>
+    <wf sent="7" id="w167" length="7" offset="862">culture</wf>
+    <wf sent="7" id="w168" length="1" offset="869">.</wf>
+  </text>
+  <terms>
+    <term id="t1" lemma="+" pos="O" type="open" morphofeat="XX">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term id="t2" lemma="+" pos="O" type="open" morphofeat="XX">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term id="t3" lemma="wedding" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term id="t4" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term id="t5" lemma="Prince" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term id="t6" lemma="Harry" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term id="t7" lemma="and" pos="C" type="close" morphofeat="CC">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term id="t8" lemma="Meghan" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term id="t9" lemma="Markle++" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term id="t10" lemma="." pos="O" type="close" morphofeat=".">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term id="t11" lemma="&#10;" pos="O" type="open" morphofeat="_SP">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term id="t12" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term id="t13" lemma="wedding" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term id="t14" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term id="t15" lemma="Prince" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term id="t16" lemma="Harry" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term id="t17" lemma="and" pos="C" type="close" morphofeat="CC">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term id="t18" lemma="Meghan" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term id="t19" lemma="Markle" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term id="t20" lemma="be" pos="V" type="open" morphofeat="VBD">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term id="t21" lemma="hold" pos="V" type="open" morphofeat="VBN">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term id="t22" lemma="on" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term id="t23" lemma="19" pos="O" type="close" morphofeat="CD">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term id="t24" lemma="May" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term id="t25" lemma="2018" pos="O" type="close" morphofeat="CD">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term id="t26" lemma="in" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <term id="t27" lemma="St" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <term id="t28" lemma="George" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <term id="t29" lemma="'s" pos="O" type="close" morphofeat="POS">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <term id="t30" lemma="Chapel" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <term id="t31" lemma="at" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <term id="t32" lemma="Windsor" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <term id="t33" lemma="Castle" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <term id="t34" lemma="in" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <term id="t35" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <term id="t36" lemma="United" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <term id="t37" lemma="Kingdom" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <term id="t38" lemma="." pos="O" type="close" morphofeat=".">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <term id="t39" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <term id="t40" lemma="groom" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <term id="t41" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <term id="t42" lemma="Prince" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <term id="t43" lemma="Harry" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <term id="t44" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <term id="t45" lemma="be" pos="V" type="open" morphofeat="VBZ">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <term id="t46" lemma="a" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <term id="t47" lemma="member" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <term id="t48" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <term id="t49" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <term id="t50" lemma="british" pos="G" type="open" morphofeat="JJ">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <term id="t51" lemma="royal" pos="G" type="open" morphofeat="JJ">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <term id="t52" lemma="family" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <term id="t53" lemma=";" pos="O" type="close" morphofeat=":">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <term id="t54" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <term id="t55" lemma="bride" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <term id="t56" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <term id="t57" lemma="Meghan" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <term id="t58" lemma="Markle" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <term id="t59" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <term id="t60" lemma="be" pos="V" type="open" morphofeat="VBZ">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <term id="t61" lemma="american" pos="G" type="open" morphofeat="JJ">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <term id="t62" lemma="and" pos="C" type="close" morphofeat="CC">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <term id="t63" lemma="previously" pos="A" type="open" morphofeat="RB">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <term id="t64" lemma="work" pos="V" type="open" morphofeat="VBD">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <term id="t65" lemma="as" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <term id="t66" lemma="an" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <term id="t67" lemma="actress" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <term id="t68" lemma="." pos="O" type="close" morphofeat=".">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <term id="t69" lemma="on" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <term id="t70" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <term id="t71" lemma="morning" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <term id="t72" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <term id="t73" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <term id="t74" lemma="wedding" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <term id="t75" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <term id="t76" lemma="Prince" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <term id="t77" lemma="Harry" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <term id="t78" lemma="'s" pos="O" type="close" morphofeat="POS">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <term id="t79" lemma="grandmother" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <term id="t80" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <term id="t81" lemma="Queen" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <term id="t82" lemma="Elizabeth" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <term id="t83" lemma="II" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <term id="t84" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <term id="t85" lemma="confer" pos="V" type="open" morphofeat="VBN">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <term id="t86" lemma="upon" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <term id="t87" lemma="-PRON-" pos="O" type="close" morphofeat="PRP">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <term id="t88" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <term id="t89" lemma="title" pos="N" type="open" morphofeat="NNS">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <term id="t90" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <term id="t91" lemma="Duke" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <term id="t92" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <term id="t93" lemma="Sussex" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <term id="t94" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <term id="t95" lemma="Earl" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <term id="t96" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <term id="t97" lemma="Dumbarton" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <term id="t98" lemma="and" pos="C" type="close" morphofeat="CC">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <term id="t99" lemma="Baron" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <term id="t100" lemma="Kilkeel" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <term id="t101" lemma="." pos="O" type="close" morphofeat=".">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <term id="t102" lemma="on" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <term id="t103" lemma="-PRON-" pos="D" type="close" morphofeat="PRP$">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <term id="t104" lemma="marriage" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <term id="t105" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <term id="t106" lemma="Markle" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <term id="t107" lemma="become" pos="V" type="open" morphofeat="VBD">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <term id="t108" lemma="Duchess" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <term id="t109" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <term id="t110" lemma="Sussex" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <term id="t111" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <term id="t112" lemma="Countess" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <term id="t113" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <term id="t114" lemma="Dumbarton" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <term id="t115" lemma="and" pos="C" type="close" morphofeat="CC">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <term id="t116" lemma="Baroness" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <term id="t117" lemma="Kilkeel" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <term id="t118" lemma="." pos="O" type="close" morphofeat=".">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <term id="t119" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <term id="t120" lemma="Archbishop" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <term id="t121" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <term id="t122" lemma="Canterbury" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <term id="t123" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <term id="t124" lemma="Justin" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <term id="t125" lemma="Welby" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <term id="t126" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <term id="t127" lemma="officiate" pos="V" type="open" morphofeat="VBD">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <term id="t128" lemma="at" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <term id="t129" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <term id="t130" lemma="wedding" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <term id="t131" lemma="use" pos="V" type="open" morphofeat="VBG">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <term id="t132" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <term id="t133" lemma="standard" pos="G" type="open" morphofeat="JJ">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <term id="t134" lemma="anglican" pos="G" type="open" morphofeat="JJ">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <term id="t135" lemma="church" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <term id="t136" lemma="service" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <term id="t137" lemma="for" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <term id="t138" lemma="Holy" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <term id="t139" lemma="Matrimony" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <term id="t140" lemma="publish" pos="V" type="open" morphofeat="VBD">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <term id="t141" lemma="in" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <term id="t142" lemma="&quot;" pos="O" type="close" morphofeat="``">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <term id="t143" lemma="Common" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <term id="t144" lemma="Worship" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <term id="t145" lemma="&quot;" pos="O" type="close" morphofeat="''">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <term id="t146" lemma="," pos="O" type="close" morphofeat=",">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <term id="t147" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <term id="t148" lemma="liturgical" pos="G" type="open" morphofeat="JJ">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <term id="t149" lemma="text" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <term id="t150" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <term id="t151" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <term id="t152" lemma="Church" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <term id="t153" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <term id="t154" lemma="England" pos="R" type="open" morphofeat="NNP">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <term id="t155" lemma="." pos="O" type="close" morphofeat=".">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <term id="t156" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <term id="t157" lemma="traditional" pos="G" type="open" morphofeat="JJ">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <term id="t158" lemma="ceremony" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <term id="t159" lemma="be" pos="V" type="open" morphofeat="VBD">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <term id="t160" lemma="note" pos="V" type="open" morphofeat="VBN">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <term id="t161" lemma="for" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <term id="t162" lemma="the" pos="D" type="close" morphofeat="DT">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <term id="t163" lemma="inclusion" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <term id="t164" lemma="of" pos="P" type="open" morphofeat="IN">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <term id="t165" lemma="african" pos="G" type="open" morphofeat="JJ">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <term id="t166" lemma="american" pos="G" type="open" morphofeat="JJ">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <term id="t167" lemma="culture" pos="N" type="open" morphofeat="NN">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <term id="t168" lemma="." pos="O" type="close" morphofeat=".">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+  </terms>
+  <entities>
+    <entity id="e1" type="UNK">
+      <references>
+        <span>
+          <!--S t   G e o r g e ' s   C h a p e l-->
+          <target id="t27"/>
+          <target id="t28"/>
+          <target id="t29"/>
+          <target id="t30"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/St_George's_Chapel" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e2" type="UNK">
+      <references>
+        <span>
+          <!--W i n d s o r   C a s t l e-->
+          <target id="t32"/>
+          <target id="t33"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Windsor_Castle" resource="Wikipedia"/>
+        <externalRef reference="http://it.wikipedia.org/wiki/Castello_di_Windsor" resource="Wikipedia"/>
+        <externalRef reference="http://nl.wikipedia.org/wiki/Windsor_Castle" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e3" type="UNK">
+      <references>
+        <span>
+          <!--P r i n c e   H a r r y-->
+          <target id="t42"/>
+          <target id="t43"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Prince_Harry" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e4" type="UNK">
+      <references>
+        <span>
+          <!--B r i t i s h   r o y a l   f a m i l y-->
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/British_royal_family" resource="Wikipedia"/>
+        <externalRef reference="http://it.wikipedia.org/wiki/Famiglia_reale_britannica" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e5" type="UNK">
+      <references>
+        <span>
+          <!--M e g h a n   M a r k l e-->
+          <target id="t57"/>
+          <target id="t58"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Meghan,_Duchess_of_Sussex" resource="Wikipedia"/>
+        <externalRef reference="http://it.wikipedia.org/wiki/Meghan_Markle" resource="Wikipedia"/>
+        <externalRef reference="http://nl.wikipedia.org/wiki/Meghan_Markle" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e6" type="UNK">
+      <references>
+        <span>
+          <!--Q u e e n   E l i z a b e t h   I I-->
+          <target id="t81"/>
+          <target id="t82"/>
+          <target id="t83"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Queen_Elizabeth_II" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e7" type="UNK">
+      <references>
+        <span>
+          <!--t i t l e s-->
+          <target id="t89"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Substantive_title" resource="Wikipedia"/>
+        <externalRef reference="http://nl.wikipedia.org/wiki/Lijst_van_Europese_dynastieke_titels" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e8" type="UNK">
+      <references>
+        <span>
+          <!--D u k e   o f   S u s s e x-->
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Duke_of_Sussex" resource="Wikipedia"/>
+        <externalRef reference="http://it.wikipedia.org/wiki/Duca_di_Sussex" resource="Wikipedia"/>
+        <externalRef reference="http://nl.wikipedia.org/wiki/Hertog_van_Sussex" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e9" type="UNK">
+      <references>
+        <span>
+          <!--E a r l   o f   D u m b a r t o n-->
+          <target id="t95"/>
+          <target id="t96"/>
+          <target id="t97"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Earl_of_Dumbarton" resource="Wikipedia"/>
+        <externalRef reference="http://it.wikipedia.org/wiki/Conte_di_Dumbarton" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e10" type="UNK">
+      <references>
+        <span>
+          <!--B a r o n   K i l k e e l-->
+          <target id="t99"/>
+          <target id="t100"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Baron_Kilkeel" resource="Wikipedia"/>
+        <externalRef reference="http://it.wikipedia.org/wiki/Barone_Kilkeel" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e11" type="UNK">
+      <references>
+        <span>
+          <!--A r c h b i s h o p   o f   C a n t e r b u r y-->
+          <target id="t120"/>
+          <target id="t121"/>
+          <target id="t122"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Archbishop_of_Canterbury" resource="Wikipedia"/>
+        <externalRef reference="http://it.wikipedia.org/wiki/Arcivescovo_di_Canterbury" resource="Wikipedia"/>
+        <externalRef reference="http://nl.wikipedia.org/wiki/Aartsbisschop_van_Canterbury" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e12" type="UNK">
+      <references>
+        <span>
+          <!--J u s t i n   W e l b y-->
+          <target id="t124"/>
+          <target id="t125"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Justin_Welby" resource="Wikipedia"/>
+        <externalRef reference="http://it.wikipedia.org/wiki/Justin_Welby" resource="Wikipedia"/>
+        <externalRef reference="http://nl.wikipedia.org/wiki/Justin_Welby" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e13" type="UNK">
+      <references>
+        <span>
+          <!--c h u r c h   s e r v i c e-->
+          <target id="t135"/>
+          <target id="t136"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Church_service" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e14" type="UNK">
+      <references>
+        <span>
+          <!--C o m m o n   W o r s h i p-->
+          <target id="t143"/>
+          <target id="t144"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Common_Worship" resource="Wikipedia"/>
+        <externalRef reference="http://it.wikipedia.org/wiki/Common_Worship" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e15" type="UNK">
+      <references>
+        <span>
+          <!--l i t u r g i c a l-->
+          <target id="t148"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Christian_liturgy" resource="Wikipedia"/>
+        <externalRef reference="http://it.wikipedia.org/wiki/Storia_della_liturgia_cristiana" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e16" type="UNK">
+      <references>
+        <span>
+          <!--C h u r c h   o f   E n g l a n d-->
+          <target id="t152"/>
+          <target id="t153"/>
+          <target id="t154"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/Church_of_England" resource="Wikipedia"/>
+        <externalRef reference="http://it.wikipedia.org/wiki/Chiesa_anglicana" resource="Wikipedia"/>
+        <externalRef reference="http://nl.wikipedia.org/wiki/Anglicaanse_Kerk" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+    <entity id="e17" type="UNK">
+      <references>
+        <span>
+          <!--A f r i c a n   A m e r i c a n   c u l t u r e-->
+          <target id="t165"/>
+          <target id="t166"/>
+          <target id="t167"/>
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef reference="http://en.wikipedia.org/wiki/African_American_culture" resource="Wikipedia"/>
+      </externalReferences>
+    </entity>
+  </entities>
+  <srl>
+    <predicate id="pr1" uri="Forming_relationships">
+      <span>
+        <target id="t13"/>
+      </span>
+    </predicate>
+    <predicate id="pr2" uri="Containing">
+      <span>
+        <target id="t21"/>
+      </span>
+    </predicate>
+    <predicate id="pr3" uri="Locative_relation">
+      <span>
+        <target id="t31"/>
+      </span>
+    </predicate>
+    <predicate id="pr4" uri="Buildings">
+      <span>
+        <target id="t33"/>
+      </span>
+    </predicate>
+    <predicate id="pr5" uri="Political_locales">
+      <span>
+        <target id="t37"/>
+      </span>
+    </predicate>
+    <predicate id="pr6" uri="Membership">
+      <span>
+        <target id="t47"/>
+      </span>
+    </predicate>
+    <predicate id="pr7" uri="Kinship">
+      <span>
+        <target id="t52"/>
+      </span>
+    </predicate>
+    <predicate id="pr8" uri="People_by_origin">
+      <span>
+        <target id="t61"/>
+      </span>
+    </predicate>
+    <predicate id="pr9" uri="Time_vector">
+      <span>
+        <target id="t63"/>
+      </span>
+    </predicate>
+    <predicate id="pr10" uri="Calendric_unit">
+      <span>
+        <target id="t71"/>
+      </span>
+    </predicate>
+    <predicate id="pr11" uri="Leadership">
+      <span>
+        <target id="t81"/>
+      </span>
+    </predicate>
+    <predicate id="pr12" uri="Spatial_contact">
+      <span>
+        <target id="t102"/>
+      </span>
+    </predicate>
+    <predicate id="pr13" uri="Forming_relationships">
+      <span>
+        <target id="t104"/>
+      </span>
+    </predicate>
+    <predicate id="pr14" uri="Becoming">
+      <span>
+        <target id="t107"/>
+      </span>
+    </predicate>
+    <predicate id="pr15" uri="Using">
+      <span>
+        <target id="t131"/>
+      </span>
+    </predicate>
+    <predicate id="pr16" uri="Buildings">
+      <span>
+        <target id="t135"/>
+      </span>
+    </predicate>
+    <predicate id="pr17" uri="Public_services">
+      <span>
+        <target id="t136"/>
+      </span>
+    </predicate>
+    <predicate id="pr18" uri="Interior_profile_relation">
+      <span>
+        <target id="t141"/>
+      </span>
+    </predicate>
+    <predicate id="pr19" uri="Custom">
+      <span>
+        <target id="t157"/>
+      </span>
+    </predicate>
+    <predicate id="pr20" uri="Becoming_aware">
+      <span>
+        <target id="t160"/>
+      </span>
+    </predicate>
+    <predicate id="pr21" uri="People_by_origin">
+      <span>
+        <target id="t166"/>
+      </span>
+    </predicate>
+  </srl>
+</NAF>
