@@ -7,9 +7,6 @@ can query for all sentences of a certain lemma and pos combination in a certain 
 
 Python 3.6 was used to create this project. It might work with older versions of Python.
 
-### Installing
-
-
 #### Python modules
 
 A number of external modules need to be installed, which are listed in **requirements.txt**.

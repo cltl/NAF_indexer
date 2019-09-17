@@ -46,57 +46,57 @@ class NAF_collection:
         if verbose >= 2:
             print(f'added {added} naf object out of the {total} provided')
 
-    def add_naf_documents(self, paths, verbose=0):
+    def add_naf_document(self, path, verbose=0):
         """
-        create NAF_document class instances and update self.documents
+        create NAF_document class instance and update
+        -self.documents
+        -self.lang_title2naf_obj
 
         :param iterable paths: iterable of paths to NAF files
         """
-        for naf_file in paths:
-            doc = etree.parse(naf_file)
-            root = doc.getroot()
-            lang = root.get('{http://www.w3.org/XML/1998/namespace}lang')
+        doc = etree.parse(path)
+        root = doc.getroot()
+        lang = root.get('{http://www.w3.org/XML/1998/namespace}lang')
 
-            # title
-            file_desc_el = root.find('nafHeader/fileDesc')
-            title = file_desc_el.get('title')
+        # title
+        file_desc_el = root.find('nafHeader/fileDesc')
+        title = file_desc_el.get('title')
 
-            naf_obj = NAF_document(title, lang, doc)
-            self.lang_title2naf_obj[(lang, title)] = naf_obj
+        naf_obj = NAF_document(title, lang, doc)
+        self.lang_title2naf_obj[(lang, title)] = naf_obj
 
-            if verbose >= 3:
-                print()
-                print(f'processing {title}')
+        if verbose >= 3:
+            print()
+            print(f'processing {title}')
 
-            w_els = doc.xpath('text/wf')
-            t_els = doc.xpath('terms/term')
+        w_els = doc.xpath('text/wf')
+        t_els = doc.xpath('terms/term')
 
-            assert len(w_els) == len(t_els), f'{title} mismatch in number of w_els and t_els'
+        assert len(w_els) == len(t_els), f'{title} mismatch in number of w_els and t_els'
 
-            for w_el, t_el in zip(w_els, t_els):
-                sent_number = w_el.get('sent')
-                sent_id = int(sent_number)
-                token_obj = Token(sent_id, w_el, t_el)
+        for w_el, t_el in zip(w_els, t_els):
+            sent_number = w_el.get('sent')
+            sent_id = int(sent_number)
+            token_obj = Token(sent_id, w_el, t_el)
 
-                if sent_id not in naf_obj.sent_id2sent_obj:
-                    sent_obj = Sent(sent_id, lang)
-                    naf_obj.sent_id2sent_obj[sent_id] = sent_obj
-                else:
-                    sent_obj = naf_obj.sent_id2sent_obj[sent_id]
+            if sent_id not in naf_obj.sent_id2sent_obj:
+                sent_obj = Sent(sent_id, lang)
+                naf_obj.sent_id2sent_obj[sent_id] = sent_obj
+            else:
+                sent_obj = naf_obj.sent_id2sent_obj[sent_id]
 
-                # update dicts
-                sent_obj.tokens.append(token_obj)
+            # update dicts
+            sent_obj.tokens.append(token_obj)
 
-                w_id = token_obj.token_id
-                t_id = naf_obj.wid2tid[w_id]
-                index = len(sent_obj.tokens)
+            w_id = token_obj.token_id
+            t_id = naf_obj.wid2tid[w_id]
+            index = len(sent_obj.tokens)
 
-                naf_obj.tid2sentid_index[t_id] = (sent_id, index)
+            naf_obj.tid2sentid_index[t_id] = (sent_id, index)
 
-            self.documents.append(naf_obj)
+        self.documents.append(naf_obj)
 
-        if verbose:
-            print(self)
+        return naf_obj
 
     def merge_distributions(self, attribute):
         """

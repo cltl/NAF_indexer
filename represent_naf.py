@@ -14,7 +14,8 @@ pos_mapping =  json.load(open('example_files/pos_mapping.json'))
 
 # create NAF_collection class instance
 naf_coll_obj = naf_classes.NAF_collection()
-naf_coll_obj.add_naf_documents(paths, verbose=verbose)
+for path in paths:
+    naf_coll_obj.add_naf_document(path, verbose=verbose)
 
 # load distributions per file: terms
 for naf_obj in naf_coll_obj.documents:
