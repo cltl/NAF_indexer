@@ -54,64 +54,6 @@ el = etree.fromstring("""<entity id="e2" type="UNK">
 assert get_span_tids(el) == ['t36', 't37', 't38']
 
 
-def iterable_of_meanings(naf_obj,
-                         xml_path,
-                         selected_attributes,
-                         attr_requirements={},
-                         verbose=0):
-    """
-    Create iterable of values in a NAF files, e.g.,
-    all senses, frames, or entities
-    :param classes.NAF_document naf_obj: instance of class NAF_document
-    :param xml_path: e.g., srl/predicate
-    :param list attribute: list of attributes to concatenate, e.g., ["lemma"] or ["lemma", "pos"]
-    :param dict attr_requirements: whether you want other attributes of the
-    same element to have a specific value, e.g, {"type": {"location"}}
-    :rtype: dict
-    :return meaning -> occurrences, i.e., title, sent_id, indices
-    """
-    occurrences = defaultdict(list)
-    for el in naf_obj.doc.xpath(xml_path):
-
-        el_attributes = el.attrib
-
-        to_add = True
-
-        for req_attr, ok_values in attr_requirements.items():
-            el_attr_value = el_attributes[req_attr]
-            assert req_attr in el_attributes, f'required attribute not part of element attributes: {el_attributes}'
-            if el_attr_value not in ok_values:
-                if verbose >= 2:
-                    print(f'skipping element because {req_attr} has value {el_attr_value}')
-                to_add = False
-
-        if not to_add:
-            continue
-
-        values = [el.get(attr)
-                  for attr in selected_attributes]
-        the_value = '--'.join(values)
-
-        # get t_ids
-        t_ids = get_span_tids(el)
-
-        sent_ids = []
-        indices = []
-        for t_id in t_ids:
-            sent_id, t_index = naf_obj.tid2sentid_index[t_id]
-            sent_ids.append(sent_id)
-            indices.append(t_index)
-
-        assert len(set(sent_ids)) == 1
-        sent_id = sent_ids[0]
-
-        occurrence = [naf_obj.title, sent_id, indices]
-
-        occurrences[the_value].append(occurrence)
-
-    return occurrences
-
-
 
 
 

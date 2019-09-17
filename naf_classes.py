@@ -11,12 +11,17 @@ class NAF_collection:
         self.documents = []
         self.lang_title2naf_obj = {}
 
+        self.supported = {'terms', 'predicates'}
+
 
     def __str__(self):
         info = []
         info.append(f'number of documents: {len(self.documents)}')
+        lang_distr = Counter([lang
+                              for lang, title in self.lang_title2naf_obj])
+        info.append(f'language distribution: {lang_distr}')
 
-        return '\t'.join(info)
+        return '\n'.join(info)
 
 
     def add_naf_documents(self, paths, verbose=0):
@@ -77,8 +82,7 @@ class NAF_collection:
         :param attribute:
         :return:
         """
-        supported = {'terms'}
-        assert attribute in {'terms'}, f'supported: {supported} -> enter: {attribute}'
+        assert attribute in self.supported, f'supported: {self.supported} -> enter: {attribute}'
 
         merged_info = {
             'distribution' : defaultdict(int),
@@ -105,7 +109,7 @@ class NAF_collection:
         :return: pandas Dataframe
         """
         supported = {'terms'}
-        assert attribute in {'terms'}, f'supported: {supported} -> enter: {attribute}'
+        assert attribute in self.supported, f'supported: {self.supported} -> enter: {attribute}'
 
         list_of_lists = []
         headers = [attribute, 'Freq']
@@ -137,7 +141,7 @@ class NAF_collection:
         :param item : e.g, 'wedding---N'
         """
         supported = {'terms'}
-        assert attribute in {'terms'}, f'supported: {supported} -> enter: {attribute}'
+        assert attribute in self.supported, f'supported: {self.supported} -> enter: {attribute}'
 
         all_occurrences = getattr(self, attribute)['occurrences']
         occurrences = all_occurrences[(lang, item)]
@@ -205,6 +209,41 @@ class NAF_document:
 
         self.terms = {'occurrences' : lemma_pos2occurrences,
                       'distribution' : distribution}
+
+
+    def set_predicate_attribute(self,
+                                verbose=0):
+        """
+        """
+        all_occurrences = defaultdict(list)
+        for el in self.doc.xpath('srl/predicate'):
+
+            predicate = el.get('uri')
+
+            # get t_ids
+            t_ids = utils.get_span_tids(el)
+
+            sent_ids = []
+            indices = []
+            for t_id in t_ids:
+                sent_id, t_index = self.tid2sentid_index[t_id]
+                sent_ids.append(sent_id)
+                indices.append(t_index)
+
+            assert len(set(sent_ids)) == 1
+            sent_id = sent_ids[0]
+
+            occurrence = [self.title, sent_id, indices]
+
+            all_occurrences[(self.language, predicate)].append(occurrence)
+
+        distribution = Counter([key
+                                for key, occurrences in all_occurrences.items()
+                                for _ in range(len(occurrences))])
+
+        self.predicates = {'occurrences': all_occurrences,
+                           'distribution': distribution}
+
 
 
 
